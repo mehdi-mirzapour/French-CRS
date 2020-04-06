@@ -1,4 +1,2 @@
-# TALAD Coreference Resolution System
-(Trained by ANCOR Corpus)
-
-## H1
+# French Coreference Resolution System
+PyText is a deep-learning based NLP modeling framework built on PyTorch. PyText addresses the often-conflicting requirements of enabling rapid experimentation and of serving models at scale. It achieves this by providing simple and extensible interfaces and abstractions for model components, and by using PyTorch’s capabilities of exporting models for inference via the optimized Caffe2 execution engine. We are using PyText in Facebook to iterate quickly on new modeling ideas and then seamlessly ship them at scale.
