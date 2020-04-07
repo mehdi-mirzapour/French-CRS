@@ -18,3 +18,10 @@ Get the source code:
   $ jupyter notebook
 ```
 
+## Running a pre-trained model
+The jupyter notebook XXX describes all the steps with running examples.
+
+## Downloading ANCOR and training with it
+The jupyter notebook YYY describes all the steps with running examples.
+
+
