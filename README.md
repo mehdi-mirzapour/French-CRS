@@ -37,17 +37,9 @@ The jupyter notebook YYY describes all the steps with running examples.
 @inproceedings{muzerelle:hal-01075679,
   TITLE = {{ANCOR\_Centre, a Large Free Spoken French Coreference Corpus:  description of the Resource and Reliability Measures}},
   AUTHOR = {Muzerelle, Judith and Lefeuvre, Ana{\"i}s and Schang, Emmanuel and Antoine, Jean-Yves and Pelletier, Aurore and Maurel, Denis and Eshkol, Iris and Villaneau, Jeanne},
-  URL = {https://hal.archives-ouvertes.fr/hal-01075679},
   BOOKTITLE = {{LREC'2014, 9th Language Resources and Evaluation Conference.}},
-  ADDRESS = {Reyjavik, Iceland},
-  EDITOR = {ELRA},
   PAGES = {843-847},
-  YEAR = {2014},
-  MONTH = May,
-  KEYWORDS = {French spoken language ; free annotated corpus ; coreference ; anaphora},
-  PDF = {https://hal.archives-ouvertes.fr/hal-01075679/file/2014_LREC_ANCOR.pdf},
-  HAL_ID = {hal-01075679},
-  HAL_VERSION = {v1},
+  YEAR = {2014}
 }
 ```
 
