@@ -1,11 +1,6 @@
 # French Coreference Resolution System
 French-CRS is a machine-learning based NLP framework for coreference resolution in French language. It is already trained using 25 syntactic/morphological features derived from ANCOR a French Oral Corpus. French-CRS has already pre-trained language models and it is ready to be incorporated for French text. It internaly uses other systems for mention and named entity detections. French-CRS is planned to be enriched by semantic features. This will let it be fitted for other tasks such as nomination detection in social media context.
 
-
-
-
-
-
 ## Installing French-CRS
 French-CRS requires Python 3.6.1 or above and it calls internally following framework:  
 1- spaCy for French Named Entitiy Detection.  
@@ -35,6 +30,24 @@ The jupyter notebook YYY describes all the steps with running examples.
   pages={507--519},
   year={2016},
   organization={Springer}
+}
+```
+
+```bibtex
+@inproceedings{muzerelle:hal-01075679,
+  TITLE = {{ANCOR\_Centre, a Large Free Spoken French Coreference Corpus:  description of the Resource and Reliability Measures}},
+  AUTHOR = {Muzerelle, Judith and Lefeuvre, Ana{\"i}s and Schang, Emmanuel and Antoine, Jean-Yves and Pelletier, Aurore and Maurel, Denis and Eshkol, Iris and Villaneau, Jeanne},
+  URL = {https://hal.archives-ouvertes.fr/hal-01075679},
+  BOOKTITLE = {{LREC'2014, 9th Language Resources and Evaluation Conference.}},
+  ADDRESS = {Reyjavik, Iceland},
+  EDITOR = {ELRA},
+  PAGES = {843-847},
+  YEAR = {2014},
+  MONTH = May,
+  KEYWORDS = {French spoken language ; free annotated corpus ; coreference ; anaphora},
+  PDF = {https://hal.archives-ouvertes.fr/hal-01075679/file/2014_LREC_ANCOR.pdf},
+  HAL_ID = {hal-01075679},
+  HAL_VERSION = {v1},
 }
 ```
 
