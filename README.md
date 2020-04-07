@@ -24,6 +24,17 @@ The jupyter notebook XXX describes all the steps with running examples.
 ## Downloading ANCOR and training with it
 The jupyter notebook YYY describes all the steps with running examples.
 
+## Citations
+```bibtex
+@inproceedings{desoyer2016coreference,
+  title={Coreference Resolution for French Oral Data: Machine Learning Experiments with ANCOR},
+  author={D{\'e}soyer, Ad{\`e}le and Landragin, Fr{\'e}d{\'e}ric and Tellier, Isabelle and Lefeuvre, Ana{\"\i}s and Antoine, Jean-Yves and Dinarelli, Marco},
+  booktitle={International Conference on Intelligent Text Processing and Computational Linguistics},
+  pages={507--519},
+  year={2016},
+  organization={Springer}
+}
+```
 
 ### License
 French-CRS is MIT-licensed, as found in the LICENSE file.
