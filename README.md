@@ -25,5 +25,5 @@ The jupyter notebook XXX describes all the steps with running examples.
 The jupyter notebook YYY describes all the steps with running examples.
 
 
-# License
+### License
 French-CRS is MIT-licensed, as found in the LICENSE file.
