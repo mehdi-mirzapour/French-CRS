@@ -13,13 +13,7 @@ CAREN (Coréférence par Application de RÉseaux de Neurones) for French menti
 
 Get the source code:
 ```
-  $ git clone https://github.com/facebookresearch/pytext
-  $ cd pytext
+  $ git clone https://github.com/mehdi-mirzapour/French-CRS
+  $ cd test
 ```
-Create a virtualenv and install PyText:
 
-```
-  $ python3 -m venv pytext_venv
-  $ source pytext_venv/bin/activate
-  (pytext_venv) $ pip install pytext-nlp
-```
