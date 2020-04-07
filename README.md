@@ -22,7 +22,7 @@ Get the source code:
 The jupyter notebook XXX describes all the steps with running examples.
 
 ## Downloading ANCOR and training with it
-ANCOR can be downloaded here: http://www.info.univ-tours.fr/~antoine/parole_publique/
+ANCOR can be downloaded here: http://www.info.univ-tours.fr/~antoine/parole_publique/  
 The jupyter notebook YYY describes all the steps with running examples.
 
 ## Citations
