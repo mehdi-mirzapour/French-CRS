@@ -17,5 +17,6 @@ Get the source code:
 ```
   $ git clone https://github.com/mehdi-mirzapour/French-CRS
   $ cd test
+  $ jupyter notebook
 ```
 
