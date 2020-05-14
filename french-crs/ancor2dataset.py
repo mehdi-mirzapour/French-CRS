@@ -108,13 +108,13 @@ class read_ancor_file():
         self.json_relations = json_relations
 
     # return chains in json format based on the json mentions and relations.
-    def generate_json_chains(self):
+    def generate_json_chains(self, coreference_type=["DIRECTE", "INDIRECTE", "ANAPHORE"]):
         G = nx.Graph()
         chain_id = 0
         json_coreference_chains = {}
 
         for chain in self.json_relations:
-            if self.json_relations[chain]["TYPE"].strip() in ["DIRECTE", "INDIRECTE", "ANAPHORE"]:
+            if self.json_relations[chain]["TYPE"].strip() in coreference_type:
                 chain_left = self.json_relations[chain]["LEFT_UNIT"]["ID"]
                 chain_right = self.json_relations[chain]["RIGHT_UNIT"]["ID"]
                 G.add_edge(chain_left, chain_right)
@@ -191,7 +191,6 @@ class chains2excel(read_ancor_file):
             df_mentions = df_mentions.sort_values(by=['START_ID'])
             list_mentions_sorted = list(df_mentions.index)
             
-
             for index in range(len(list_mentions_sorted)):
 
                     start_index = index-window_size
