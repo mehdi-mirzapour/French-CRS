@@ -85,7 +85,7 @@ class chains_builder():
                                   theme_right_window, 
                                   ):
 
-        df = pd.read_excel('StopWords-FR.xlsx')
+        df = pd.read_excel('../french-crs/StopWords-FR.xlsx')
         stopwords_list = list(df["StopWords"])
 
         # Return whole context list : "whole_context"

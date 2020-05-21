@@ -177,7 +177,7 @@ class udpipe_spacy_lang_model:
 
 
     
-    def find_mentions_in_tokenized_text(self, relative_path="."):
+    def find_mentions_in_tokenized_text(self, relative_path=".."):
 
         udpipe_parsed_text = ""
         for index in range(0, len(self.sentences_json)):
