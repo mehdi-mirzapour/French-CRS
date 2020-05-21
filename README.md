@@ -15,16 +15,17 @@ Quick installation guide:
   $ cd French-CRS
   $ pip install -r requirements.txt
   $ python -m spacy download fr_core_news_md
-  $ jupyter notebook
+  $ Jupyter notebook
 ```
 
-## Running a pre-trained model through working example in Jupyter notebook
-The jupyter notebook XXX describes all the steps with running examples.
+## Running a pre-trained model pipelines in jupyter notebook
+The jupyter notebook Text2CoreferenceChains.ipynb describes all the steps with a running example.  
+This file can be opened via Jupyter notebook and demonstrates a walkthough with a runnnng example.  
 
 ## Downloading ANCOR and training with it
-ANCOR can be downloaded here:  
-http://www.info.univ-tours.fr/~antoine/parole_publique/  
-The jupyter notebook YYY describes all the steps with running examples.
+ANCOR can be downloaded here:  http://www.info.univ-tours.fr/~antoine/parole_publique/  
+
+Notice: ANCOR files are not mandatory for running the example. Pre-trained models are already introduced in the "pre-trained language models" folder.  
 
 ## Citations
 ```bibtex
