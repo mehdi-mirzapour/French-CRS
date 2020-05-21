@@ -18,7 +18,7 @@ Quick installation guide:
   $ jupyter notebook
 ```
 
-## Running a pre-trained model
+## Running a pre-trained model through working example in Jupyter notebook
 The jupyter notebook XXX describes all the steps with running examples.
 
 ## Downloading ANCOR and training with it
