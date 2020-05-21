@@ -4,9 +4,13 @@ French-CRS is a machine-learning based NLP framework for coreference resolution 
 ## Installing French-CRS
 French-CRS requires Python 3.6.1 or above and it calls internally following framework:
 1- ÚFAL UDPipe.
+
 2- spaCy for French Named Entitiy Detection.
+
 3- CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection.  
+
 4- JupyterLab Notebook (optional)
+
 
 Get the source code:
 ```
