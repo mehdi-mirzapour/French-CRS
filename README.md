@@ -19,13 +19,12 @@ Quick installation guide:
 ```
 
 ## Running a pre-trained model pipelines in jupyter notebook
-The jupyter notebook Text2CoreferenceChains.ipynb describes all the steps with a running example.  
-This file can be opened via Jupyter notebook and demonstrates a walkthough with a runnnng example.  
+The jupyter notebook /demo/Text2CoreferenceChains.ipynb describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates a walkthough with a runnnng example.  
 
 ## Downloading ANCOR and training with it
 ANCOR can be downloaded here:  http://www.info.univ-tours.fr/~antoine/parole_publique/  
 
-Notice: ANCOR files are not mandatory for running the example. Pre-trained models are already introduced in the "pre-trained language models" folder.  
+Notice: Downloading ANCOR corpus is not mandatory for running the CRS system. Pre-trained models are already introduced in the "pre-trained language models" folder. The jupyter notebook /demo/Text2CoreferenceChains.ipynb also describes how to actually integrate it.
 
 ## Citations
 ```bibtex
