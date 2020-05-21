@@ -21,6 +21,9 @@ Quick installation guide:
 ## Running a pre-trained model pipelines in jupyter notebook
 The jupyter notebook "/demo/Text2CoreferenceChains.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates a walkthough with a runnnng example.  
 
+## Training a new model in jupyter notebook
+The jupyter notebook "/demo/Model_ANCOR_Training.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates different possible strategies for training new models. 
+
 ## Downloading ANCOR and training with it
 ANCOR can be downloaded here:  http://www.info.univ-tours.fr/~antoine/parole_publique/  
 
