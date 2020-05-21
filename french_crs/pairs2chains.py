@@ -51,7 +51,7 @@ class chains_builder():
         return(coreference_chain_built)
 
     # Calling this method produces two json files in SCORCH format
-    def generate_gold_model_json_output(self, mode="test"):
+    def generate_gold_model_json_output(self, mode="test", path_json_files="./"):
 
         coref_chains_gold = self.generate_coreference_chains(
             self.gold_dataframe, self.gold_column, mode)
@@ -61,11 +61,10 @@ class chains_builder():
         coref_chains_gold_json = {"type": "clusters", "clusters": coref_chains_gold}
         coref_chains_pred_json = {"type": "clusters", "clusters": coref_chains_pred}
 
-
-        with open('coref_chains_gold.json', 'w') as outfile:
+        with open(path_json_files+'coref_chains_gold.json', 'w') as outfile:
             json.dump(coref_chains_gold_json, outfile)
 
-        with open('coref_chains_pred.json', 'w') as outfile:
+        with open(path_json_files+'coref_chains_pred.json', 'w') as outfile:
             json.dump(coref_chains_pred_json, outfile)
 
         self.coref_chains_gold_json = coref_chains_gold
