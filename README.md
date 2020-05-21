@@ -2,9 +2,11 @@
 French-CRS is a machine-learning based NLP framework for coreference resolution in French language. It is already trained using 25 syntactic/morphological features derived from ANCOR a French Oral Corpus. French-CRS has already pre-trained language models and it is ready to be incorporated for French text. It internaly uses other systems for mention and named entity detections. French-CRS is planned to be enriched by semantic features. This will let it be fitted for other tasks such as nomination detection in social media context.
 
 ## Installing French-CRS
-French-CRS requires Python 3.6.1 or above and it calls internally following framework:  
-1- spaCy for French Named Entitiy Detection.  
-2-CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection.  
+French-CRS requires Python 3.6.1 or above and it calls internally following framework:
+1- ÚFAL UDPipe.
+2- spaCy for French Named Entitiy Detection.
+3- CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection.  
+4- JupyterLab Notebook (optional)
 
 Get the source code:
 ```
