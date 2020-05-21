@@ -9,7 +9,9 @@ French-CRS requires Python 3.6.1 or above and it calls internally following fram
 Get the source code:
 ```
   $ git clone https://github.com/mehdi-mirzapour/French-CRS
-  $ cd test
+  $ cd French-CRS
+  $ pip install -r requirements.txt
+  $ python -m spacy download fr_core_news_md
   $ jupyter notebook
 ```
 
