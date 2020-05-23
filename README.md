@@ -22,7 +22,8 @@ For an easy boostrap:
 ```bash
 git clone https://github.com/Evpok/neural-end-to-end-coref
 cd neural-end-to-end-coref
-git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db``` 
+git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db
+``` 
 
 ## Running a pre-trained model pipelines in command line  
 
