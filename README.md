@@ -5,13 +5,13 @@ French-CRS is a machine-learning based NLP framework for coreference resolution 
 
 For an easy boostrap
 
-1. Type at command prompt `https://github.com/mehdi-mirzapour/French-CRS` or download the
-   zip from github and unzip it  
-2. Create a new enviroment `virtualenv env4fcrs`  
-3. Source it `source French-CRS/bin/activate` (remember you should do this every time you want to use French-CRS)  
-4. Change the directory to cloned folder `cd French-CRS`  
-5. Let the setup file install all the components autumatically `pip install -e .` (Don't forget to put the "." point sign)  
-6. Install the additional dependencies
+1. Type at command prompt `git clone https://github.com/mehdi-mirzapour/French-CRS` or download the
+   zip from github and unzip it.   
+2. Create a new enviroment `virtualenv env4fcrs`.   
+3. Source it `source French-CRS/bin/activate` (remember you should do this every time you want to use French-CRS).   
+4. Change the directory to cloned folder `cd French-CRS`.  
+5. Let the setup file install autumatically all the components `pip install -e .` (Don't forget to put the "." point sign).  
+6. Install the additional dependencies.  
 
     ```bash
     python -m spacy download fr_core_news_md
