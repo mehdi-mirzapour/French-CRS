@@ -29,17 +29,6 @@ For an easy boostrap:
     python -m spacy download fr_core_news_sm
     ``` 
 
-
-Source it  (do this every time you want to use it)
-
-Install it 
-
-Install the additional dependencies
-
-
-
-
-
 ## Running a pre-trained model pipelines in command line  
 
 1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
