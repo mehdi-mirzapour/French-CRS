@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='french-crs', 
-    version='0.1', 
+    version='0.2', 
     description='French CRS is a coreference resolver for French trained by ANCOR corpus',
     url='https://github.com/mehdi-mirzapour/French-CRS',  
     author='Mehdi Mirzapour',
@@ -23,7 +23,7 @@ setup(
     packages=find_packages(), 
     python_requires='>=3.7, <4',
     entry_points={
-        'console_scripts': 'crs-resolver=french_crs.crs_resolver:run_pipelines'
+        'console_scripts': 'crs-resolver=command_line.crs_resolver:run_pipelines'
         },
     install_requires=[
         'appnope',

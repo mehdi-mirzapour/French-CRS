@@ -188,7 +188,7 @@ class udpipe_spacy_lang_model:
         file_raw_text.write(udpipe_parsed_text)
         file_raw_text.close()
 
-        os.system(relative_path+"/mention_detector.sh "+relative_path)
+        os.system(relative_path+"/french_crs/mention_detector.sh "+relative_path)
 
         with open(relative_path+"/mention_detector_files/mentions.json") as json_file:
             mentions = json.load(json_file)
@@ -244,11 +244,10 @@ class udpipe_spacy_lang_model:
         return(self.mentions_ids_in_json_sents)
 
 
+    def find_mention_ids_in_sents_json(self, operation="==", relative_path_mention_detector = ".."):
 
-
-    def find_mention_ids_in_sents_json(self, operation="=="):
-
-        self.find_mentions_in_tokenized_text()
+        self.find_mentions_in_tokenized_text(
+            relative_path=relative_path_mention_detector)
         mentions_ids_in_json_sents = []
         for sent_id in range(0, len(self.sentences_json)):
             for mention in self.list_mentions_merged_words:
@@ -274,10 +273,10 @@ class udpipe_spacy_lang_model:
         return(self.mentions_ids_in_json_sents)
 
 
+    def update_json_sents_with_mentions(self, operation="==", find_mention_ids_in_sents_json=".."):
 
-    def update_json_sents_with_mentions(self, operation="=="):
-
-        self.find_mention_ids_in_sents_json(operation)
+        self.find_mention_ids_in_sents_json(
+            operation, find_mention_ids_in_sents_json)
         for sent_id in range(0, len(self.sentences_json)):
             self.sentences_json[sent_id]["Sent_Mentions"] = []
             for mention_id in range(0, len(self.mentions_ids_in_json_sents)):
