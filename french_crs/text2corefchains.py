@@ -27,7 +27,7 @@ class udpipe_spacy_lang_model:
         
         self.text_tokenized = self._read(text, tokenizer)
 
-        return self._read(text, tokenizer)
+        return self.text_tokenized
 
     def read(self, text, in_format):
         """Load text in the given format (conllu|horizontal|vertical) and return list of ufal.udpipe.Sentence-s."""
