@@ -17,7 +17,7 @@ For an easy boostrap:
     ```bash
     python -m spacy download fr_core_news_md
     ```  
-7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection  
+7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection located in `https://github.com/Evpok/neural-end-to-end-coref` commit# `7ceb245fbf8cbf126c18ce29fb9e4746ca0036db`
 
 ## Running a pre-trained model pipelines in command line  
 
