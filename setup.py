@@ -95,6 +95,7 @@ setup(
         'threadpoolctl',
         'tornado',
         'tqdm',
+        'pathlib',
         'traitlets',
         'ufal.udpipe',
         'urllib3',

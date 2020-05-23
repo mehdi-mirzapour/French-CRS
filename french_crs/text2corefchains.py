@@ -6,13 +6,15 @@ import pandas as pd
 import re
 from bs4 import BeautifulSoup
 import joblib
+from pathlib import Path
+
 
 class udpipe_spacy_lang_model:
 
     def __init__(self, udpipe_lang_model, spacy_lang_model):
         """Load given model."""
-        self.spacy_lang_model = spacy.load(spacy_lang_model)
-        self.udpipe_lang_model = Model.load(udpipe_lang_model)
+        self.spacy_lang_model = spacy.load(Path(spacy_lang_model))
+        self.udpipe_lang_model = Model.load(Path(udpipe_lang_model))
         if not self.udpipe_lang_model:
             raise Exception(
                 "Cannot load UDPipe model from file '%s'" % udpipe_lm_path)
