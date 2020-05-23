@@ -1,8 +1,31 @@
 # French Coreference Resolution System
 French-CRS is a machine-learning based NLP framework for coreference resolution in French language. It is already trained using 25 syntactic/morphological features derived from ANCOR a French Oral Corpus. French-CRS has already pre-trained language models and it is ready to be incorporated for French text. It internaly uses other systems for mention and named entity detections. French-CRS is planned to be enriched by semantic features. This will let it be fitted for other tasks such as nomination detection in social media context.
 
+## Boostraping French-CRS
+
+For an easy boostrap
+
+1. Type at command prompt `https://github.com/mehdi-mirzapour/French-CRS` or download the
+   zip from github and unzip it  
+2. Create a new enviroment `virtualenv env4fcrs`  
+3. Source it `source French-CRS/bin/activate` (remember you should do this every time you want to use French-CRS)  
+4. Change the directory to cloned folder `cd French-CRS`  
+5. Let the setup file install all the components autumatically `pip install -e .` (Don't forget to put the "." point sign)  
+6. Install the additional dependencies
+
+    ```bash
+    python -m spacy download fr_core_news_md
+    ```
+
+## Running a pre-trained model pipelines in command line
+
+1. Ensure you are in the virtualenv `source French-CRS/bin/activate`  
+2. Modify the configuration file that exists in the root cloned folder.  
+3. Run the crs-resolver `crs-resolver --text "..."`. You can get more information by `crs-resolver --help`.  
+
+
 ## Installing French-CRS
-French-CRS requires Python 3.6.1 or above and it calls internally following framework:  
+French-CRS requires Python 3.7 or above and it calls internally following framework:  
 
 1- ÚFAL UDPipe.  
 2- spaCy for French Named Entitiy Detection.  
@@ -21,8 +44,6 @@ Quick installation guide:
 ## Running a pre-trained model pipelines in jupyter notebook
 The jupyter notebook "/demo/Text2CoreferenceChains.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates a walkthough with a runnnng example.  
 
-## Running a pre-trained model pipelines in command line
-The jupyter notebook "/demo/Text2CoreferenceChains.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates a walkthough with a runnnng example. 
 
 ## Training a new model in jupyter notebook
 The jupyter notebook "/demo/Model_ANCOR_Training.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates different possible strategies for training new models. 
