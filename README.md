@@ -21,9 +21,24 @@ For an easy boostrap:
 
     ```bash
     git clone https://github.com/Evpok/neural-end-to-end-coref
+    python3.7 -m venv .virtenv
+    source .virtenv/bin/activate
     cd neural-end-to-end-coref
     git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db
+    python -m pip install -e .
+    python -m spacy download fr_core_news_sm
     ``` 
+
+
+Source it  (do this every time you want to use it)
+
+Install it 
+
+Install the additional dependencies
+
+
+
+
 
 ## Running a pre-trained model pipelines in command line  
 
