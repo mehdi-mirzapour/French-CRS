@@ -19,11 +19,11 @@ For an easy boostrap:
     ```  
 7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection with the following setup:  
 
-```bash
-git clone https://github.com/Evpok/neural-end-to-end-coref
-cd neural-end-to-end-coref
-git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db
-``` 
+    ```bash
+    git clone https://github.com/Evpok/neural-end-to-end-coref
+    cd neural-end-to-end-coref
+    git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db
+    ``` 
 
 ## Running a pre-trained model pipelines in command line  
 
