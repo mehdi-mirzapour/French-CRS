@@ -10,7 +10,7 @@ For an easy boostrap:
 2. Create a new enviroment `virtualenv env4fcrs`  
 3. Source it `source env4fcrs/bin/activate` (remember you should do this every time you want to use French-CRS)   
 4. Change the directory to cloned folder `cd French-CRS`  
-5. Let the setup file install autumatically all the components `pip install -e .` (Check out if the point sign "." is not accidently removed)  
+5. Let the setup file install autumatically all the components `pip install -e .` (check out if the point sign "." is not accidently removed)  
 6. In case you want to use Jupyter notebook, you can add your virtual environment to it by typing `python -m ipykernel install --user --name=env4fcrs`  
 6. Install the following language model for spaCy  
 
