@@ -19,7 +19,8 @@ For an easy boostrap:
     ```  
 7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection located in `https://github.com/Evpok/neural-end-to-end-coref`; the following commit number is used in our current  `7ceb245fbf8cbf126c18ce29fb9e4746ca0036db`
 
-```git clone https://github.com/Evpok/neural-end-to-end-coref
+```bash
+git clone https://github.com/Evpok/neural-end-to-end-coref
 cd neural-end-to-end-coref
 git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db``` 
 
