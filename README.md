@@ -11,42 +11,34 @@ For an easy boostrap:
 3. Source it `source env4fcrs/bin/activate` (remember you should do this every time you want to use French-CRS)   
 4. Change the directory to cloned folder `cd French-CRS`  
 5. Let the setup file install autumatically all the components `pip install -e .` (Don't forget to put the "." point sign)  
-6. Install the additional dependencies  
+6. In case you want to use Jupyter notebook, you can add your virtual environment to it by typing `python -m ipykernel install --user --name=env4fcrs`  
+6. Install the following language model for spaCy  
 
     ```bash
     python -m spacy download fr_core_news_md
-    ```
+    ```  
+7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection  
 
-## Running a pre-trained model pipelines in command line
+## Running a pre-trained model pipelines in command line  
 
-1. Ensure you are in the virtualenv `source French-CRS/bin/activate`  
+1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
 2. Modify the configuration file that exists in the root cloned folder.  
 3. Run the crs-resolver `crs-resolver --text "..."`. You can get more information by `crs-resolver --help`.  
 
+## Running a pre-trained model pipelines in jupyter notebook  
 
-## Installing French-CRS
-French-CRS requires Python 3.7 or above and it calls internally following framework:  
-
-1- ÚFAL UDPipe.  
-2- spaCy for French Named Entitiy Detection.  
-3- CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection.  
-4- JupyterLab Notebook (optional)  
-
-Quick installation guide:
-```
-  $ git clone https://github.com/mehdi-mirzapour/French-CRS
-  $ cd French-CRS
-  $ pip install -r requirements.txt
-  $ python -m spacy download fr_core_news_md
-  $ Jupyter notebook
-```
-
-## Running a pre-trained model pipelines in jupyter notebook
-The jupyter notebook "/demo/Text2CoreferenceChains.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates a walkthough with a runnnng example.  
+1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
+2. Ensure you have run before `python -m ipykernel install --user --name=env4fcrs` at the command prompt 
+3. Type at command prompt `jupyter notebook`
+4. Open "demo" folder and click on the file "Text2CoreferenceChains.ipynb"  
 
 
 ## Training a new model in jupyter notebook
-The jupyter notebook "/demo/Model_ANCOR_Training.ipynb" describes all the essential steps. This file can be opened via Jupyter notebook and it demonstrates different possible strategies for training new models. 
+
+1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
+2. Ensure you have run before `python -m ipykernel install --user --name=env4fcrs` at the command prompt 
+3. Type at command prompt `jupyter notebook`
+4. Open "demo" folder and click on the file "Model_ANCOR_Training.ipynb"  
 
 ## Downloading ANCOR and training with it
 ANCOR can be downloaded here:  http://www.info.univ-tours.fr/~antoine/parole_publique/  
