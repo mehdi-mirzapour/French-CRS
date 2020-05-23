@@ -272,11 +272,10 @@ class udpipe_spacy_lang_model:
 
         return(self.mentions_ids_in_json_sents)
 
-
-    def update_json_sents_with_mentions(self, operation="==", find_mention_ids_in_sents_json=".."):
+    def update_json_sents_with_mentions(self, operation="==", relative_path_mention_detector=".."):
 
         self.find_mention_ids_in_sents_json(
-            operation, find_mention_ids_in_sents_json)
+            operation, relative_path_mention_detector)
         for sent_id in range(0, len(self.sentences_json)):
             self.sentences_json[sent_id]["Sent_Mentions"] = []
             for mention_id in range(0, len(self.mentions_ids_in_json_sents)):
