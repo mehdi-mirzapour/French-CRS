@@ -74,6 +74,12 @@ Usage: crs-resolver.py [OPTIONS]
     if text!=None:
         config_file["text"] = text
     
+
+    print("\n Here are the configuration settings:\n")
+    for key, content in config_file.items():
+        print(key," : ",content)
+        
+
     print()
     print("Analyzing the following sentence:")
     print()
