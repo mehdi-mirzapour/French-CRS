@@ -2,6 +2,7 @@ import json
 import pandas as pd
 import networkx as nx
 import ast
+from pathlib import Path
 
 """
 
@@ -16,8 +17,8 @@ class chains_builder():
 
     # initiator for building the chains
     def __init__(self, path_gold_file, path_model_file, gold_column, model_column,threshold):
-        self.gold_dataframe = pd.read_excel(path_gold_file, index_col=0)
-        self.model_dataframe = pd.read_excel(path_model_file, index_col=0)
+        self.gold_dataframe = pd.read_excel(str(Path(path_gold_file)), index_col=0)
+        self.model_dataframe = pd.read_excel(str(Path(path_model_file)), index_col=0)
         self.gold_column = gold_column
         self.model_column = model_column
         self.threshold = threshold
@@ -61,10 +62,10 @@ class chains_builder():
         coref_chains_gold_json = {"type": "clusters", "clusters": coref_chains_gold}
         coref_chains_pred_json = {"type": "clusters", "clusters": coref_chains_pred}
 
-        with open(path_json_files+'coref_chains_gold.json', 'w') as outfile:
+        with open(str(Path(path_json_files+'coref_chains_gold.json')), 'w') as outfile:
             json.dump(coref_chains_gold_json, outfile)
 
-        with open(path_json_files+'coref_chains_pred.json', 'w') as outfile:
+        with open(str(Path(path_json_files+'coref_chains_pred.json')), 'w') as outfile:
             json.dump(coref_chains_pred_json, outfile)
 
         self.coref_chains_gold_json = coref_chains_gold
@@ -85,7 +86,7 @@ class chains_builder():
                                   path_to_stop_words="./french_crs/StopWords-FR.xlsx"
                                   ):
 
-        df = pd.read_excel(path_to_stop_words)
+        df=pd.read_excel(str(Path(path_to_stop_words)))
         stopwords_list = list(df["StopWords"])
 
         # Return whole context list : "whole_context"
@@ -227,7 +228,7 @@ class chains_builder():
             df = df.append(df_row, ignore_index=True)
             df = df.append(df_row, ignore_index=True)
 
-        df.to_excel(file_path, index=False)
+        df.to_excel(str(Path(file_path)), index=False)
         self.visualized_context_df = df
 
         return(self.visualized_context_df)

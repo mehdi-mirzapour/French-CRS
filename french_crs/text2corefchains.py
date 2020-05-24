@@ -13,8 +13,8 @@ class udpipe_spacy_lang_model:
 
     def __init__(self, udpipe_lang_model, spacy_lang_model):
         """Load given model."""
-        self.spacy_lang_model = spacy.load(Path(spacy_lang_model))
-        self.udpipe_lang_model = Model.load(Path(udpipe_lang_model))
+        self.spacy_lang_model = spacy.load(str(Path(spacy_lang_model)))
+        self.udpipe_lang_model = Model.load(str(Path(udpipe_lang_model)))
         if not self.udpipe_lang_model:
             raise Exception(
                 "Cannot load UDPipe model from file '%s'" % udpipe_lm_path)
@@ -186,13 +186,13 @@ class udpipe_spacy_lang_model:
             sent=self.sentences_json[index]["Sent_Tokenized"]
             udpipe_parsed_text += sent
 
-        file_raw_text = open(relative_path+"/mention_detector_files/raw_text.txt", 'w')
+        file_raw_text = open(str(Path(relative_path+"/mention_detector_files/raw_text.txt")), 'w')
         file_raw_text.write(udpipe_parsed_text)
         file_raw_text.close()
 
-        os.system(relative_path+"/french_crs/mention_detector.sh "+relative_path)
+        os.system(str(Path(relative_path+"/french_crs/mention_detector.sh "+relative_path)))
 
-        with open(relative_path+"/mention_detector_files/mentions.json") as json_file:
+        with open(str(Path(relative_path+"/mention_detector_files/mentions.json"))) as json_file:
             mentions = json.load(json_file)
 
         filtered_mentions = []
@@ -249,7 +249,7 @@ class udpipe_spacy_lang_model:
     def find_mention_ids_in_sents_json(self, operation="==", relative_path_mention_detector = ".."):
 
         self.find_mentions_in_tokenized_text(
-            relative_path=relative_path_mention_detector)
+            relative_path=str(Path(relative_path_mention_detector)))
         mentions_ids_in_json_sents = []
         for sent_id in range(0, len(self.sentences_json)):
             for mention in self.list_mentions_merged_words:
@@ -277,7 +277,7 @@ class udpipe_spacy_lang_model:
     def update_json_sents_with_mentions(self, operation="==", relative_path_mention_detector=".."):
 
         self.find_mention_ids_in_sents_json(
-            operation, relative_path_mention_detector)
+            operation, str(Path(relative_path_mention_detector)))
         for sent_id in range(0, len(self.sentences_json)):
             self.sentences_json[sent_id]["Sent_Mentions"] = []
             for mention_id in range(0, len(self.mentions_ids_in_json_sents)):
