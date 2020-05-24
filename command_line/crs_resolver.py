@@ -63,7 +63,11 @@ Usage: crs-resolver.py [OPTIONS]
                         "text_features_xls_path": "./command_line/crs-output/unseen_data.xlsx",
                         "scorch_json_output_path": "./command_line/crs-output/",
                         "stop_words_file": "./french_crs/StopWords-FR.xlsx",
-                        "context_visualized_file": "./command_line/crs-output/context_visualized.xlsx"
+                        "context_visualized_file": "./command_line/crs-output/context_visualized.xlsx",
+                        "context_left_window": 3,
+                        "context_right_window": 3,
+                        "theme_left_window": 4,
+                        "theme_right_window": 4
         }
         print(config_file)
 
@@ -130,10 +134,10 @@ Usage: crs-resolver.py [OPTIONS]
     # Coreference Chains Visualizing
     print("Coreference Chains Visualizing...")
     chains.context_visualizer(model.sentences_json,
-                            context_left_window=3,
-                            context_right_window=3,
-                            theme_left_window=5,
-                            theme_right_window=4,
+                            context_left_window=config_file["context_left_window"],
+                            context_right_window=config_file["context_right_window"],
+                            theme_left_window=config_file["theme_left_window"],
+                            theme_right_window=config_file["theme_right_window"],
                             file_path=config_file["context_visualized_file"],
                             path_to_stop_words=config_file["stop_words_file"])
     
