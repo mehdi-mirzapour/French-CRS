@@ -5,6 +5,7 @@ import re
 import random
 import glob
 import networkx as nx
+import os
 
 """
 
@@ -27,15 +28,14 @@ class read_ancor_file():
 
         self.sub_corpus = sub_corpus
         self.file = file
-
-        self.path_ancor_file += sub_corpus+'/'
+        path_file = self.path_ancor_file+sub_corpus+'/'
 
         self.tree_xml = ET.parse(
-            self.path_ancor_file+'annotation_integree/'+file+'.xml')
+            path_file+'annotation_integree/'+file+'.xml')
         self.tree_aa = ET.parse(
-            self.path_ancor_file+'aa_fichiers/'+file+'.aa')
+            path_file+'aa_fichiers/'+file+'.aa')
         self.data_source = open(
-            self.path_ancor_file+'ac_fichiers/'+file + '.ac', "r").read()
+            path_file+'ac_fichiers/'+file + '.ac', "r").read()
 
         self.root_xml = self.tree_xml.getroot()
         self.root_aa = self.tree_aa.getroot()
@@ -117,7 +117,8 @@ class read_ancor_file():
             if self.json_relations[chain]["TYPE"].strip() in coreference_type:
                 chain_left = self.json_relations[chain]["LEFT_UNIT"]["ID"]
                 chain_right = self.json_relations[chain]["RIGHT_UNIT"]["ID"]
-                G.add_edge(chain_left, chain_right)
+                G.add_edge(chain_left, chain_right,
+                           coref_type=self.json_relations[chain]["TYPE"].strip())
 
         for subgraph in list(nx.connected_components(G)):
             json_coreference_chains[chain_id] = []
@@ -135,12 +136,19 @@ on the basis of different strategies of chain building.
 
 """
 
-class chains2excel(read_ancor_file):
+
+class dataset_builder(read_ancor_file):
 
     # Looks for ./DISTRIB_ANCOR/ as deafult otherwise should be indicated.
-    def __init__(self, path_ancor_file=None):
-        super().__init__(path_ancor_file)
+    def __init__(self, strategy, ancor_corpus_path, sub_corpus_filter, coreference_type_filter, dataset_output_folder, window_size):
+        super().__init__(ancor_corpus_path)
 
+        self.strategy = strategy
+        self.ancor_corpus_path = ancor_corpus_path
+        self.sub_corpus_filter = sub_corpus_filter
+        self.coreference_type_filter = coreference_type_filter
+        self.dataset_output_folder = dataset_output_folder
+        self.window_size = window_size
 
     # Generates positive and negative pairs by applying two strategies
     # "normal" strategy uses "neg_pairs_percentage" parameter for creating the pairs
@@ -409,3 +417,69 @@ class chains2excel(read_ancor_file):
                 output_path+"/"+self.file+"_POS_"+str(pos_rel_num)+"_NEG_"+str(neg_rel_num)+".xlsx")
         
         self.coreference_pairs_dataframe=coreference_pairs_df
+    
+    def build_dataset(self, file_analysis_alert=True):
+
+        for sub_corpus in self.sub_corpus_filter:
+
+            ancor_subcorpus_path = self.ancor_corpus_path+sub_corpus+'/'
+
+            corpus_files = [file[file.rfind(
+                "/")+1:-4] for file in glob.glob(ancor_subcorpus_path+"annotation_integree/*.xml")]
+
+            list_dataframes = []
+
+            for subfile in corpus_files:
+
+                self.set_file_config(sub_corpus, subfile)
+                self.generate_json_mentions()
+                self.remove_empty_json_mentions()
+                self.generate_json_relations()
+                if self.json_relations == {}:
+                    continue
+                self.generate_json_chains(
+                    coreference_type=self.coreference_type_filter)
+
+
+                if self.strategy =="balanced":
+                    self.generate_pos_neg_pairs(neg_pairs_percentage=0.49,
+                                            strategy="normal")
+                elif self.strategy == "representative":
+                    self.generate_pos_neg_pairs(neg_pairs_percentage=0.90,
+                                            strategy="normal")
+                elif self.strategy == "window":
+                    self.generate_pos_neg_pairs(
+                        strategy="pairs_from_left_with_window_size", window_size=self.window_size)
+
+                self.extend_with_order_pos_neg_pairs()
+                self.generate_training_test_dataset(save_files=False)
+
+                list_dataframes.append(self.coreference_pairs_dataframe)
+
+                if file_analysis_alert==True:
+                    print("Feature extraction from", subfile, "in",
+                                      sub_corpus, "sucessfuly finished.")
+
+            train_test_dataframe = pd.concat(list_dataframes, ignore_index=True)
+
+            if len(self.coreference_type_filter) == 3:
+                scf = "Full"
+            else:
+                scf = "_".join(self.coreference_type_filter)
+
+            new_path = self.dataset_output_folder + self.strategy + "_" +scf 
+
+            if not os.path.exists(new_path):
+                try:
+                    os.makedirs(new_path)
+                except OSError:
+                    print("\nCreation of the directory %s failed\n" % new_path)
+                else: 
+                    print("\nThe directory %s is created\n" % new_path)
+
+            train_test_dataframe.to_excel(
+                new_path + "/" + self.strategy + "_" + scf + "_" + sub_corpus+".xlsx"
+            )
+
+            print("\nDataset saved in", new_path + "/" + self.strategy +
+                  "_" + scf + "_" + sub_corpus+".xlsx", "\n")
