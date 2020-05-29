@@ -477,9 +477,34 @@ class dataset_builder(read_ancor_file):
                 else: 
                     print("\nThe directory %s is created\n" % new_path)
 
+            self.saved_path = new_path+"/"
+            self.scf=scf
+
             train_test_dataframe.to_excel(
-                new_path + "/" + self.strategy + "_" + scf + "_" + sub_corpus+".xlsx"
+                self.saved_path + self.strategy + "_" + scf + "_" + sub_corpus+".xlsx"
             )
 
-            print("\nDataset saved in", new_path + "/" + self.strategy +
+            print("\nDataset saved in", self.saved_path + self.strategy +
                   "_" + scf + "_" + sub_corpus+".xlsx", "\n")
+
+
+    def merge_dataset(self, delete_original_after_merge=True):
+        merge_lists = []
+
+        files_list = [file for file in glob.glob(self.saved_path+"*.xlsx")]
+
+        for file in files_list:
+            merge_lists.append(pd.read_excel(file, index_col=0))
+
+        mrg_file = pd.concat(merge_lists, ignore_index=True)
+
+        mrg_file.to_excel(self.saved_path + self.strategy + "_" + 
+                                    self.scf + "_Merged.xlsx")
+
+        print("\nDataset saved in",self.saved_path + self.strategy + "_" +
+                                     self.scf + "_Merged.xlsx","\n")
+
+        if delete_original_after_merge:     
+            for file in files_list:
+                os.remove(file)
+            print("\nAll files", files_list, "deleted")
