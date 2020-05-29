@@ -501,7 +501,7 @@ class dataset_builder(read_ancor_file):
         mrg_file.to_excel(self.saved_path + self.strategy + "_" + 
                                     self.scf + "_Merged.xlsx")
 
-        print("\nDataset saved in",self.saved_path + self.strategy + "_" +
+        print("\nDataset merged and saved in",self.saved_path + self.strategy + "_" +
                                      self.scf + "_Merged.xlsx","\n")
 
         if delete_original_after_merge:     
