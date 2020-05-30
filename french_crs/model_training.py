@@ -33,12 +33,11 @@ class dataset_splitter():
 
 
     #  The splitter divides the dataset based on the file name property in the dataset.
-    def dataset_splitter_by_file(self,sub_corpus_num, lower_rate=0.2,upper_rate=0.21, files_num=60):
+    def dataset_splitter_by_file(self, lower_rate=0.2,upper_rate=0.21, files_num=60):
 
-        scn = 0
         rate = 0
 
-        while (scn !=sub_corpus_num*2  or not(rate >= lower_rate and rate < upper_rate)):
+        while not(rate >= lower_rate and rate < upper_rate):
             sub_corpus_files = self.input_dataframe["File_Name"].unique().tolist()
             sub_corpus_files_test = random.sample(sub_corpus_files, files_num)
             sub_corpus_files_train = [
@@ -50,8 +49,6 @@ class dataset_splitter():
                 sub_corpus_files_test)]
 
             rate = self.test_dataframe.shape[0]/self.train_dataframe.shape[0]
-            scn = (self.test_dataframe["Sub_Corpus"].unique().shape[0] +
-                   self.train_dataframe["Sub_Corpus"].unique().shape[0])
 
         self.train_dataframe.to_excel(self.train_file)
         self.test_dataframe.to_excel(self.test_file)
