@@ -507,4 +507,4 @@ class dataset_builder(read_ancor_file):
         if delete_original_after_merge:     
             for file in files_list:
                 os.remove(file)
-            print("\nAll files", files_list, "deleted")
+            print("\nAll files in ", files_list, "deleted")

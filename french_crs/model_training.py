@@ -25,14 +25,15 @@ and NOT the rows in the dataset.
 class dataset_splitter():
 
     # initiator for getting the main, training and test dataset file names
-    def __init__(self, input_file, train_file, test_file):
+    def __init__(self, input_file, train_file, test_file, split_config_json="./split_config.json"):
         self.input_dataframe = pd.read_excel(input_file, index_col=0)
         self.train_file = train_file
         self.test_file = test_file
+        self.split_config_json = split_config_json
 
 
     #  The splitter divides the dataset based on the file name property in the dataset.
-    def dataset_splitter_by_file(self,sub_corpus_num, lower_rate=0.2,upper_rate=0.21, files_num=45):
+    def dataset_splitter_by_file(self,sub_corpus_num, lower_rate=0.2,upper_rate=0.21, files_num=60):
 
         scn = 0
         rate = 0
@@ -59,14 +60,21 @@ class dataset_splitter():
         self.sub_corpus_files_train = sub_corpus_files_train
 
         print("Created with", rate,"rate")
-        
-        return({
-            "sub_corpus_files_train": self.sub_corpus_files_train,
-            "sub_corpus_files_test": self.sub_corpus_files_test
-        })
 
-    def dataset_splitter_by_dict(self, sub_corpus_files_train, sub_corpus_files_test):
+        with open(self.split_config_json, 'w') as outfile:
+            json.dump({
+                "sub_corpus_files_train": self.sub_corpus_files_train,
+                "sub_corpus_files_test": self.sub_corpus_files_test
+            },
+                outfile)
 
+    def dataset_splitter_by_json_config(self):
+
+        with open(self.split_config_json) as json_file:
+            config_json = json.load(json_file)
+
+        sub_corpus_files_train = config_json["sub_corpus_files_train"]
+        sub_corpus_files_test = config_json["sub_corpus_files_test"]
         
         self.train_dataframe = self.input_dataframe[self.input_dataframe["File_Name"].isin(
             sub_corpus_files_train)]
@@ -84,10 +92,7 @@ class dataset_splitter():
 
         print("Created with", rate, "rate")
 
-        return({
-            "sub_corpus_files_train": self.sub_corpus_files_train,
-            "sub_corpus_files_test": self.sub_corpus_files_test
-        })
+
 
 
 """
