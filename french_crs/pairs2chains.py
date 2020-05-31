@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import networkx as nx
 import ast
-from pathlib import Path
+import os
 
 """
 
@@ -16,11 +16,12 @@ class chains_builder():
     
 
     # initiator for building the chains
-    def __init__(self, path_gold_file, path_model_file, gold_column, model_column,threshold):
-        self.gold_dataframe = pd.read_excel(str(Path(path_gold_file)), index_col=0)
-        self.model_dataframe = pd.read_excel(str(Path(path_model_file)), index_col=0)
+    def __init__(self, path_gold_file, path_model_file, gold_column, model_column,scorch_output_path,threshold):
+        self.gold_dataframe = pd.read_excel(path_gold_file, index_col=0)
+        self.model_dataframe = pd.read_excel(path_model_file, index_col=0)
         self.gold_column = gold_column
         self.model_column = model_column
+        self.scorch_output_path = scorch_output_path
         self.threshold = threshold
 
 
@@ -52,7 +53,7 @@ class chains_builder():
         return(coreference_chain_built)
 
     # Calling this method produces two json files in SCORCH format
-    def generate_gold_model_json_output(self, mode="test", path_json_files="./"):
+    def generate_gold_model_json_output(self, mode="test"):
 
         coref_chains_gold = self.generate_coreference_chains(
             self.gold_dataframe, self.gold_column, mode)
@@ -62,14 +63,18 @@ class chains_builder():
         coref_chains_gold_json = {"type": "clusters", "clusters": coref_chains_gold}
         coref_chains_pred_json = {"type": "clusters", "clusters": coref_chains_pred}
 
-        with open(str(Path(path_json_files+'coref_chains_gold.json')), 'w') as outfile:
+        with open(self.scorch_output_path+'coref_chains_gold.json', 'w') as outfile:
             json.dump(coref_chains_gold_json, outfile)
 
-        with open(str(Path(path_json_files+'coref_chains_pred.json')), 'w') as outfile:
+        with open(self.scorch_output_path+'coref_chains_pred.json', 'w') as outfile:
             json.dump(coref_chains_pred_json, outfile)
 
         self.coref_chains_gold_json = coref_chains_gold
         self.coref_chains_pred_json = coref_chains_pred
+
+        print("SCORCH json formats saved at following addresses:")
+        print(os.path.abspath(self.scorch_output_path+'coref_chains_gold.json'))
+        print(os.path.abspath(self.scorch_output_path+'coref_chains_pred.json'))
 
 
     def print2string(self,context_list,sep=" "):
@@ -83,10 +88,9 @@ class chains_builder():
                                   context_right_window,
                                   theme_left_window,
                                   theme_right_window, 
-                                  path_to_stop_words="./french_crs/StopWords-FR.xlsx"
                                   ):
 
-        df=pd.read_excel(str(Path(path_to_stop_words)))
+        df = pd.read_excel('StopWords-FR.xlsx')
         stopwords_list = list(df["StopWords"])
 
         # Return whole context list : "whole_context"
@@ -194,8 +198,7 @@ class chains_builder():
                                         context_right_window=3,
                                         theme_left_window=10,
                                         theme_right_window=10,
-                                        file_path="context_visualized.xlsx",
-                                        path_to_stop_words="./french_crs/StopWords-FR.xlsx"):
+                                        file_path="context_visualized.xlsx"):
 
         df = pd.DataFrame(columns=[
                           'ID', 'Thème gauche', 'Contexte_L', 'Contexte_C', 'Contexte_R', 'Thème droit'])
@@ -210,8 +213,7 @@ class chains_builder():
                                                                                     context_left_window,
                                                                                     context_right_window,
                                                                                     theme_left_window,
-                                                                                    theme_right_window,
-                                                                                    path_to_stop_words)
+                                                                                    theme_right_window)
 
                 Contexte_L = self.print2string(local_left_context)
                 Contexte_C = mention[0]
@@ -228,7 +230,7 @@ class chains_builder():
             df = df.append(df_row, ignore_index=True)
             df = df.append(df_row, ignore_index=True)
 
-        df.to_excel(str(Path(file_path)), index=False)
+        df.to_excel(file_path, index=False)
         self.visualized_context_df = df
 
         return(self.visualized_context_df)
