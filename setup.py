@@ -43,6 +43,7 @@ setup(
         'et-xmlfile',
         'spacy',
         'idna',
+        'scorch',
         'importlib-metadata',
         'ipykernel',
         'ipython',

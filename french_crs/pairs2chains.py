@@ -87,10 +87,11 @@ class chains_builder():
                                   context_left_window,
                                   context_right_window,
                                   theme_left_window,
-                                  theme_right_window, 
+                                  theme_right_window,
+                                  path_to_stop_words
                                   ):
 
-        df = pd.read_excel('StopWords-FR.xlsx')
+        df = pd.read_excel(path_to_stop_words)
         stopwords_list = list(df["StopWords"])
 
         # Return whole context list : "whole_context"
@@ -198,7 +199,8 @@ class chains_builder():
                                         context_right_window=3,
                                         theme_left_window=10,
                                         theme_right_window=10,
-                                        file_path="context_visualized.xlsx"):
+                                        file_path="context_visualized.xlsx",
+                                        path_to_stop_words="../french_crs/StopWords-FR.xlsx"):
 
         df = pd.DataFrame(columns=[
                           'ID', 'Thème gauche', 'Contexte_L', 'Contexte_C', 'Contexte_R', 'Thème droit'])
@@ -213,7 +215,8 @@ class chains_builder():
                                                                                     context_left_window,
                                                                                     context_right_window,
                                                                                     theme_left_window,
-                                                                                    theme_right_window)
+                                                                                    theme_right_window,
+                                                                                    path_to_stop_words)
 
                 Contexte_L = self.print2string(local_left_context)
                 Contexte_C = mention[0]
