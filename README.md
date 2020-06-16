@@ -1,7 +1,7 @@
 # French Coreference Resolution System
 French-CRS is a machine-learning based NLP framework for coreference resolution in French language. It is already trained using 25 syntactic/morphological features derived from ANCOR a French Oral Corpus. French-CRS has already pre-trained language models and it is ready to be incorporated for French text. It internaly uses other systems for mention and named entity detections. French-CRS is planned to be enriched by semantic features. This will let it be fitted for other tasks such as nomination detection in social media context.
 
-## Quick Installation Instruction for French-CRS
+## Quick Installation Instruction
 
 For a quick start:
 
@@ -28,6 +28,7 @@ For a quick start:
     python -m pip install -e .
     python -m spacy download fr_core_news_sm
     ``` 
+8. To deactivate try `deactivate` in commonad prompt or simply close the terminal
 
 ## Running a pre-trained model pipelines in command line  
 
