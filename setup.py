@@ -69,6 +69,8 @@ setup(
         'pandas',
         'pandocfilters',
         'parso',
+        'stanza',
+        'spacy_stanza',
         'pbr',
         'pexpect',
         'pickleshare',
