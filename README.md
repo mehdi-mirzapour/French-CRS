@@ -29,18 +29,13 @@ For a quick start:
     ```  
 7. To deactivate the enviroment run `deactivate` in the commonad prompt or simply close the terminal
 
-## Running a pre-trained model pipelines in command line  
-
-1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
-2. Modify the configuration file that exists in the root cloned folder.  
-3. Run the crs-resolver `crs-resolver --text "..."`. You can get more information by `crs-resolver --help`.  
 
 ## Running a pre-trained model pipelines in jupyter notebook  
 
 1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
 2. Ensure you have run before `python -m ipykernel install --user --name=env4fcrs` at the command prompt 
 3. Type at command prompt `jupyter notebook`
-4. Open "demo" folder and click on the file "Text2CoreferenceChains.ipynb"  
+4. Open "demo" folder and click on the file "Text2CoreferenceChains_Stanza_spaCy.ipynb"  
 
 
 ## Training a new model in jupyter notebook
@@ -48,7 +43,7 @@ For a quick start:
 1. Ensure you are in the virtualenv `source env4fcrs/bin/activate`  
 2. Ensure you have run before `python -m ipykernel install --user --name=env4fcrs` at the command prompt 
 3. Type at command prompt `jupyter notebook`
-4. Open "demo" folder and click on the file "Model_ANCOR_Training.ipynb"  
+4. Open "demo" folder and click on the file "fast_Model_ANCOR_Training.ipynb"  
 
 ## Downloading ANCOR and training with it
 ANCOR can be downloaded here:  http://www.info.univ-tours.fr/~antoine/parole_publique/  
