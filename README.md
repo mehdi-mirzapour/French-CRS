@@ -8,7 +8,7 @@ French-CRS is a machine-learning based NLP framework for coreference resolution 
 
 2. Virtualenv (a useful resource for non-familiar ones is `https://python.doctor/page-virtualenv-python-environnement-virtuel`
 
-3. CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection (notice that the author permission is required) `https://github.com/LoicGrobol/decofre/`
+3. CAREN (`https://github.com/Evpok/neural-end-to-end-coref`) or DECOFRE (`https://github.com/LoicGrobol/decofre/`) for French mention detection (notice that the author permission is required for CAREN) 
 
 
 ## Quick Installation Instruction
