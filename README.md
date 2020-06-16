@@ -7,7 +7,7 @@ For a quick start:
 
 1. Type at the root of your command prompt `git clone https://github.com/mehdi-mirzapour/French-CRS` or download the
    zip from github and unzip it  
-2. Create a new enviroment `virtualenv -p /path/to/python3.7 env4fcrs` with your local path to python3.7;  if you are sure that your current python version is 3.7 you can simply use `virtualenv env4fcrs`  
+2. Create a new enviroment `virtualenv -p /path/to/python3.7 env4fcrs` and replace `/path/to` with your local path to python (`which python`); if you are sure that your current python version is 3.7 you can simply use `virtualenv env4fcrs`  
 3. Source it `source env4fcrs/bin/activate` (remember you should do this every time you want to use French-CRS)   
 4. Change the directory to cloned folder `cd French-CRS`  
 5. Let the setup file install autumatically all the components `pip install -e .` (check out if the point sign "." is not accidently removed)  
