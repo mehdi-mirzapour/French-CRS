@@ -1,13 +1,23 @@
 # French Coreference Resolution System
 French-CRS is a machine-learning based NLP framework for coreference resolution in French language. It is already trained using 25 syntactic/morphological features derived from ANCOR a French Oral Corpus. French-CRS has already pre-trained language models and it is ready to be incorporated for French text. It internaly uses other systems for mention and named entity detections. French-CRS is planned to be enriched by semantic features. This will let it be fitted for other tasks such as nomination detection in social media context.
 
-## Boostraping French-CRS
 
-For an easy boostrap:
+## Prerequisite:  
+
+1. Python 3.7+
+
+2. Virtualenv (a useful resource for non-familiar ones is `https://python.doctor/page-virtualenv-python-environnement-virtuel`
+
+3. This version does not need any external mention detector.
+
+
+## Quick Installation Instruction
+
+For a quick start:  
 
 1. Type at the root of your command prompt `git clone https://github.com/mehdi-mirzapour/French-CRS` or download the
    zip from github and unzip it  
-2. Create a new enviroment `virtualenv env4fcrs`  
+2. Create a new environment `virtualenv -p /path/to/python3.7 env4fcrs` and replace `/path/to` with your local path to python using `which python` command; if you are sure that your current python version is 3.7 you can simply use `virtualenv env4fcrs`  
 3. Source it `source env4fcrs/bin/activate` (remember you should do this every time you want to use French-CRS)   
 4. Change the directory to cloned folder `cd French-CRS`  
 5. Let the setup file install autumatically all the components `pip install -e .` (check out if the point sign "." is not accidently removed)  
@@ -17,17 +27,7 @@ For an easy boostrap:
     ```bash
     python -m spacy download fr_core_news_md
     ```  
-7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection with the following setup (notice that the author permission is required):  
-
-    ```bash
-    git clone https://github.com/Evpok/neural-end-to-end-coref
-    python3.7 -m venv .virtenv
-    source .virtenv/bin/activate
-    cd neural-end-to-end-coref
-    git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db
-    python -m pip install -e .
-    python -m spacy download fr_core_news_sm
-    ``` 
+7. To deactivate the enviroment run `deactivate` in the commonad prompt or simply close the terminal
 
 ## Running a pre-trained model pipelines in command line  
 
