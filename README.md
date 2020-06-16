@@ -4,7 +4,7 @@ French-CRS is a machine-learning based NLP framework for coreference resolution 
 
 ## Prerequisite:  
 
-1. Python 3.7  
+1. Python 3.7+
 
 2. Virtualenv (a useful resource for non-familiar ones is `https://python.doctor/page-virtualenv-python-environnement-virtuel`
 

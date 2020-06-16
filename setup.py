@@ -63,6 +63,8 @@ setup(
         'nbconvert',
         'nbformat',
         'networkx',
+        'stanza',
+        'spacy_stanza',
         'notebook',
         'numpy',
         'openpyxl',
