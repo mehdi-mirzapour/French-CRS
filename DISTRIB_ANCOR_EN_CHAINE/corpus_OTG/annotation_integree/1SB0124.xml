@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1SB0124" version="3" version_date="031114">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0124" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="6.996" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.719" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+          <anchor id="mgodefroy_1330021356416" num="1">je</anchor>
+          voudrais
+          <anchor id="mgodefroy_1330021442454" num="2">un</anchor>
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="0.719" endTime="1.295" id="2">
+          <Sync time="0.719" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          <anchor id="mgodefroy_1330021132546" num="3">
+            plan de
+            <anchor id="mgodefroy_1330021165662" num="4">Grenoble</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="1.295" endTime="1.772" id="3">
+          <Sync time="1.295" />
+          s'il vous plaît
+        </Turn>
+        <Turn speaker="spk2" startTime="1.772" endTime="5.047" id="4">
+          <Sync time="1.772" />
+          oui # voilà
+        </Turn>
+        <Turn speaker="spk1" startTime="5.047" endTime="5.784" id="5">
+          <Sync time="5.047" />
+          merci
+        </Turn>
+        <Turn speaker="spk2" startTime="5.784" endTime="6.191" id="6">
+          <Sync time="5.784" />
+          au revoir
+        </Turn>
+        <Turn speaker="spk1" startTime="6.191" endTime="6.996" id="7">
+          <Sync time="6.191" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1226-16998300" />
+    <unit id="mgodefroy_1330021165662">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330021356416">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">voudrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330021442454">
+      <characterisation>
+        <type>NULL</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NULL</feature>
+          <feature name="EN">NULL</feature>
+          <feature name="DEF">NULL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">NULL</feature>
+          <feature name="NB">NULL</feature>
+          <feature name="CONTENT">un</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">voudrais</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330021132546">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">plan de Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <schema id="mgodefroy_1330021387759">
+      <metadata>
+        <author>mgodefroy</author>
+        <creation-date>1330021387759</creation-date>
+        <lastModifier>n/a</lastModifier>
+        <lastModificationDate>0</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning />
+    </schema>
+    <schema id="mgodefroy_1330021451566">
+      <metadata>
+        <author>mgodefroy</author>
+        <creation-date>1330021451566</creation-date>
+        <lastModifier>n/a</lastModifier>
+        <lastModificationDate>0</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="mgodefroy_1330021442454" />
+        <embedded-unit id="mgodefroy_1330021132546" />
+      </positioning>
+    </schema>
+  </annotations>
+</ANCOR>

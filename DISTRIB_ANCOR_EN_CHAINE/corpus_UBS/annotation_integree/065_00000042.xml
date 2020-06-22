@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Foulon J" audio_filename="065_00000042" version="1" version_date="041124">
+    <Speakers>
+      <Speaker id="spk1" name="hotesse" check="no" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Episode>
+      <Section type="report" startTime="0" endTime="5.976" id="1">
+        <Turn startTime="0" endTime="1.375" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="agoudjo_1331894984307" num="1">U B S</anchor>
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="1.375" endTime="4.521" id="2">
+          <Sync time="1.375" />
+          bonjour ici
+          <anchor id="agoudjo_1331895006045" num="2">Prénom nom</anchor>
+          est ce que
+          <anchor id="agoudjo_1331895035540" num="3">je</anchor>
+          pourrais avoir
+          <anchor id="agoudjo_1331895064938" num="4">Prénom2 Nom2</anchor>
+          s'il vous plait
+        </Turn>
+        <Turn speaker="spk1" startTime="4.521" endTime="5.976" id="3">
+          <Sync time="4.521" />
+          # oui
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="787-51594840" />
+    <unit id="agoudjo_1331894984307">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">U B S</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">bonjour</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1331895006045">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Prénom nom</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ici</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1331895035540">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">pourrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1331895064938">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Prénom2 Nom2</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avoir</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>

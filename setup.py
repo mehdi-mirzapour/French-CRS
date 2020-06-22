@@ -67,6 +67,7 @@ setup(
         'numpy',
         'openpyxl',
         'pandas',
+        'python-docx',
         'pandocfilters',
         'parso',
         'stanza',

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ap0310" version="1" version_date="010919">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ap0310" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="7.995" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.649" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.649" endTime="3.469" id="2">
+          <Sync time="0.649" />
+          est ce que
+          <anchor id="klunari_1331291542390" num="1">vous</anchor>
+          auriez
+          <anchor id="klunari_1331291545765" num="2">des documents</anchor>
+          sur
+          <anchor id="klunari_1331291548078" num="3">
+            les curiosités de
+            <anchor id="klunari_1331291551078" num="4">la région</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="3.469" endTime="5.456" id="3">
+          <Sync time="3.469" />
+          oui bien sûr # tenez
+        </Turn>
+        <Turn speaker="spk2" startTime="5.456" endTime="6.606" id="4">
+          <Sync time="5.456" />
+          d'accord merci beaucoup
+        </Turn>
+        <Turn speaker="spk1" startTime="6.606" endTime="7.131" id="5">
+          <Sync time="6.606" />
+          <anchor id="klunari_1331291558312" num="5">je</anchor>
+          <anchor id="klunari_1331291559859" num="6">vous</anchor>
+          en prie
+        </Turn>
+        <Turn speaker="spk2" startTime="7.131" endTime="7.547" id="6">
+          <Sync time="7.131" />
+          au revoir
+        </Turn>
+        <Turn speaker="spk1" startTime="7.547" endTime="7.995" id="7">
+          <Sync time="7.547" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1291-25557444" />
+    <unit id="klunari_1331291542390">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">auriez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1331291551078">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la région</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1331291558312">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">vous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1331291559859">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">je</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1331291548078">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les curiosités de la région</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">sur</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1331291545765">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des documents</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">auriez</feature>
+          <feature name="NEXT">sur</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>

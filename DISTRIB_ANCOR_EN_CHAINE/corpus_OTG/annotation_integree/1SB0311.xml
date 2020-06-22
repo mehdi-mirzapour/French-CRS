@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1SB0311" version="4" version_date="040104">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0311" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="21.741" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.791" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.791" endTime="2.691" id="2">
+          <Sync time="0.791" />
+          bonjour ce serait pour
+          <anchor id="mgodefroy_1331836329562" num="1">un renseignement</anchor>
+          <anchor id="mgodefroy_1331836342496" num="2">je</anchor>
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="2.691" endTime="2.964" id="3">
+          <Sync time="2.691" />
+          <Who nb="1" />
+          hum
+          <Who nb="2" />
+          cherche
+        </Turn>
+        <Turn speaker="spk2" startTime="2.964" endTime="6.362" id="4">
+          <Sync time="2.964" />
+          <anchor id="mgodefroy_1331836355918" num="3">un appartement</anchor>
+          <anchor id="mgodefroy_1331836369047" num="4">la semaine prochaine</anchor>
+          <anchor id="mgodefroy_1331836387200" num="5">j'</anchor>
+          aimerais savoir
+          <anchor id="mgodefroy_1331836403396" num="6">quel jour</anchor>
+          sort "
+          <anchor id="mgodefroy_1331836420573" num="7">le 38"</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="6.362" endTime="8.639" id="5">
+          <Sync time="6.362" />
+          <anchor id="mgodefroy_1331836438664" num="8">"le 38"</anchor>
+          <anchor id="mgodefroy_1331836451573" num="9">nous</anchor>
+          est livré
+          <anchor id="mgodefroy_1331836462601" num="10">le lundi</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="8.639" endTime="9.22" id="6">
+          <Sync time="8.639" />
+          ok c'est le
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="9.22" endTime="10.114" id="7">
+          <Sync time="9.22" />
+          <Who nb="1" />
+          ici
+          <Who nb="2" />
+          <anchor id="mgodefroy_1331836510662" num="11">
+            lundi
+            <anchor id="mgodefroy_1331836498868" num="12">matin</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="10.114" endTime="15.522" id="8">
+          <Sync time="10.114" />
+          e
+          <anchor id="mgodefroy_1331836530989" num="13">matin</anchor>
+          ou
+          <anchor id="mgodefroy_1331836542515" num="14">après midi</anchor>
+          ça dépend un peu de
+          <anchor id="mgodefroy_1331836571091" num="15">leur tournée</anchor>
+          quoi c'est jamais e le
+          <anchor id="mgodefroy_1331836602424" num="16">la même heure</anchor>
+          quoi
+        </Turn>
+        <Turn speaker="spk2" startTime="15.522" endTime="16.082" id="9">
+          <Sync time="15.522" />
+          d'accord
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="16.082" endTime="16.366" id="10">
+          <Sync time="16.082" />
+          <Who nb="1" />
+          <anchor id="mgodefroy_1331836647877" num="17">il</anchor>
+          <Who nb="2" />
+          merci
+        </Turn>
+        <Turn speaker="spk1" startTime="16.366" endTime="19.89" id="11">
+          <Sync time="16.366" />
+          faut vraiment passer
+          <anchor id="mgodefroy_1331836675241" num="18">le lundi</anchor>
+          pour avoir
+          <anchor id="mgodefroy_1331836710943" num="19">"le 38</anchor>
+          " hein parce que
+          <anchor id="mgodefroy_1331836729580" num="20">le lendemain</anchor>
+          <anchor id="mgodefroy_1331836743802" num="21">on</anchor>
+          <anchor id="mgodefroy_1331836762656" num="22">en</anchor>
+          a déjà plus hein
+        </Turn>
+        <Turn speaker="spk2" startTime="19.89" endTime="21.342" id="12">
+          <Sync time="19.89" />
+          ok # merci
+        </Turn>
+        <Turn speaker="spk1" startTime="21.342" endTime="21.741" id="13">
+          <Sync time="21.342" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="2124-78362163" />
+    <unit id="mgodefroy_1331836329562">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un renseignement</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">pour</feature>
+          <feature name="NEXT">je</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836342496">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">renseignement</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836355918">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un appartement</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">la</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836369047">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la semaine prochaine</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">appartement</feature>
+          <feature name="NEXT">j'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836387200">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">j'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">prochaine</feature>
+          <feature name="NEXT">aimerais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836403396">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">quel jour</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">savoir</feature>
+          <feature name="NEXT">sort</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836420573">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PROD</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le 38"</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836438664">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PROD</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">"le 38"</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">nous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836451573">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">nous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">38</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836462601">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">TIME</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le lundi</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">livré</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836498868">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">matin</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">lundi</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836530989">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">matin</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">ou</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836542515">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">après midi</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">ou</feature>
+          <feature name="NEXT">ça</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836571091">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">leur tournée</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">quoi</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836602424">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la même heure</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">le</feature>
+          <feature name="NEXT">quoi</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836647877">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">merci</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836675241">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">TIME</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le lundi</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">passer</feature>
+          <feature name="NEXT">pour</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836710943">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PROD</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">"le 38</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">avoir</feature>
+          <feature name="NEXT">hein</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836729580">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le lendemain</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">on</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836743802">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">lendemain</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836762656">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PROD</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">en</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">on</feature>
+          <feature name="NEXT">a</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1331836510662">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">TIME</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">lundi matin</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ici</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="mgodefroy_1331836787265">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">7</feature>
+          <feature name="Distance_Mention">15</feature>
+          <feature name="Distance_Char">249</feature>
+          <feature name="Distance_Word">53</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836762656" />
+        <term id="mgodefroy_1331836420573" />
+      </positioning>
+    </relation>
+    <relation id="mgodefroy_1331836809054">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">7</feature>
+          <feature name="Distance_Mention">12</feature>
+          <feature name="Distance_Char">209</feature>
+          <feature name="Distance_Word">44</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836710943" />
+        <term id="mgodefroy_1331836420573" />
+      </positioning>
+    </relation>
+    <relation id="mgodefroy_1331836821766">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836438664" />
+        <term id="mgodefroy_1331836420573" />
+      </positioning>
+    </relation>
+    <relation id="mgodefroy_1331836838236">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">14</feature>
+          <feature name="Distance_Word">4</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836510662" />
+        <term id="mgodefroy_1331836462601" />
+      </positioning>
+    </relation>
+    <relation id="mgodefroy_1331836851758">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">1</feature>
+          <feature name="Distance_Word">1</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836530989" />
+        <term id="mgodefroy_1331836498868" />
+      </positioning>
+    </relation>
+    <relation id="mgodefroy_1331836880248">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">6</feature>
+          <feature name="Distance_Mention">8</feature>
+          <feature name="Distance_Char">158</feature>
+          <feature name="Distance_Word">33</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836675241" />
+        <term id="mgodefroy_1331836462601" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1332236869619">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">4</feature>
+          <feature name="Distance_Char">35</feature>
+          <feature name="Distance_Word">9</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1331836462601" />
+        <term id="mgodefroy_1331836403396" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

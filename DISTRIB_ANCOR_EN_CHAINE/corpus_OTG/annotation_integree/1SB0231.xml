@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1SB0231" version="2" version_date="031118">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0231" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="3.373" topic="to1" id="1">
+        <Turn startTime="0" endTime="1.245" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="mgodefroy_1330520423423" num="1">je</anchor>
+          voudrais
+          <anchor id="mgodefroy_1330520457740" num="2">un plan</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="1.245" endTime="2.355" id="2">
+          <Sync time="1.245" />
+          oui bien sûr voilà
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="2.355" endTime="3.373" id="3">
+          <Sync time="2.355" />
+          <Who nb="1" />
+          merci au revoir
+          <Who nb="2" />
+          <anchor id="mgodefroy_1330520507381" num="3">monsieur</anchor>
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="872-46415358" />
+    <unit id="mgodefroy_1330520423423">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">voudrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330520457740">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">voudrais</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330520507381">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">monsieur</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">revoir</feature>
+          <feature name="NEXT">au</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>

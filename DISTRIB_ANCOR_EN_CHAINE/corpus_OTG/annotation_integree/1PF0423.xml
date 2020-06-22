@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1pf0423" version="2" version_date="031118">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1pf0423" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="11.054" topic="to1" id="1">
+        <Turn startTime="0" endTime="1.227" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          bonjour e
+        </Turn>
+        <Turn speaker="spk2" startTime="1.227" endTime="3.39" id="2">
+          <Sync time="1.227" />
+          <anchor id="gpascault_1353064088018" num="1">je</anchor>
+          cherche
+          <anchor id="gpascault_1353064104686" num="2">une bibliothèque</anchor>
+          dans
+          <anchor id="gpascault_1353064141113" num="3">le coin</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="3.39" endTime="6.741" id="3">
+          <Sync time="3.39" />
+          alors
+          <anchor id="gpascault_1353064157464" num="4">la bibliothèque</anchor>
+          dans
+          <anchor id="gpascault_1353064182434" num="5">le coin</anchor>
+          si
+          <anchor id="gpascault_1353064200723" num="6">elle</anchor>
+          s'est pas sauvée
+          <anchor id="gpascault_1353064217641" num="7">vous</anchor>
+          sortez par
+          <anchor id="gpascault_1353064222452" num="8">la porte</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="6.741" endTime="7.01" id="4">
+          <Sync time="6.741" />
+          ouais
+        </Turn>
+        <Turn speaker="spk1" startTime="7.01" endTime="7.81" id="5">
+          <Sync time="7.01" />
+          <anchor id="gpascault_1353064243413" num="9">premier étage</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="7.81" endTime="8.819" id="6">
+          <Sync time="7.81" />
+          ah
+          <anchor id="jmuzerelle_1370880680379" num="10">c'</anchor>
+          est tout
+        </Turn>
+        <Turn speaker="spk1" startTime="8.819" endTime="10.049" id="7">
+          <Sync time="8.819" />
+          voilà
+          <anchor id="jmuzerelle_1370880691370" num="11">c'</anchor>
+          est tout bête
+        </Turn>
+        <Turn speaker="spk2" startTime="10.049" endTime="10.669" id="8">
+          <Sync time="10.049" />
+          merci
+        </Turn>
+        <Turn speaker="spk1" startTime="10.669" endTime="11.054" id="9">
+          <Sync time="10.669" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1501-64093590" />
+    <unit id="gpascault_1353064088018">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">cherche</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064104686">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">une bibliothèque</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">cherche</feature>
+          <feature name="NEXT">dans</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064141113">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le coin</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">dans</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064157464">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la bibliothèque</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">alors</feature>
+          <feature name="NEXT">dans</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064182434">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le coin</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">dans</feature>
+          <feature name="NEXT">si</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064200723">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">elle</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">si</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064217641">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">sauvée</feature>
+          <feature name="NEXT">sortez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064222452">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la porte</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">par</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353064243413">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">premier étage</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1370880680379">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ah</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1370880691370">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">voilà</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="gpascault_1353064271849">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">17</feature>
+          <feature name="Distance_Word">4</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353064157464" />
+        <term id="gpascault_1353064104686" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353064279244">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">26</feature>
+          <feature name="Distance_Word">4</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353064182434" />
+        <term id="gpascault_1353064141113" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353064293244">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">4</feature>
+          <feature name="Distance_Char">49</feature>
+          <feature name="Distance_Word">10</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353064200723" />
+        <term id="gpascault_1353064104686" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

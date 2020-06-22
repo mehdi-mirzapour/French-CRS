@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1pf0474" version="2" version_date="031119">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1pf0474" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="4.885" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.439" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          viens
+          <anchor id="jmuzerelle_1371126998785" num="1">un</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="0.439" endTime="3.319" id="2">
+          <Sync time="0.439" />
+          <anchor id="agoudjo_1330350305154" num="2">
+            plan
+            <anchor id="agoudjo_1330350342938" num="3">
+              des pistes cyclables de
+              <anchor id="agoudjo_1330350360606" num="4">Grenoble</anchor>
+            </anchor>
+          </anchor>
+          s'il vous plaît
+        </Turn>
+        <Turn speaker="spk1" startTime="3.319" endTime="3.702" id="3">
+          <Sync time="3.319" />
+          voilà
+        </Turn>
+        <Turn speaker="spk2" startTime="3.702" endTime="4.407" id="4">
+          <Sync time="3.702" />
+          merci
+        </Turn>
+        <Turn speaker="spk1" startTime="4.407" endTime="4.885" id="5">
+          <Sync time="4.407" />
+          c'est
+          <anchor id="agoudjo_1330350427726" num="5">moi</anchor>
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1053-99880011" />
+    <unit id="agoudjo_1330350360606">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330350427726">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">moi</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330350342938">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des pistes cyclables de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">plan</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330350305154">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">plan des pistes cyclables de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1371126998785">
+      <characterisation>
+        <type>NULL</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NULL</feature>
+          <feature name="EN">NULL</feature>
+          <feature name="DEF">NULL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">NULL</feature>
+          <feature name="NB">NULL</feature>
+          <feature name="CONTENT">un</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">viens</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <schema id="jmuzerelle_1371127000476">
+      <metadata>
+        <author>jmuzerelle</author>
+        <creation-date>1371127000476</creation-date>
+        <lastModifier>jmuzerelle</lastModifier>
+        <lastModificationDate>1371127003368</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="jmuzerelle_1371126998785" />
+        <embedded-unit id="agoudjo_1330350305154" />
+      </positioning>
+    </schema>
+  </annotations>
+</ANCOR>

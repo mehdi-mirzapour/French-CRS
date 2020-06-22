@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1AP0074" version="4" version_date="040103">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ap0074" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="7.020" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.773" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.773" endTime="2.238" id="2">
+          <Sync time="0.773" />
+          oui bonjour
+          <anchor id="yrives_1330415912562" num="1">je</anchor>
+          voudrais
+          <anchor id="yrives_1330416048859" num="2">
+            un plan de
+            <anchor id="yrives_1330416068125" num="3">Grenoble</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="2.238" endTime="2.996" id="3">
+          <Sync time="2.238" />
+          bien sûr
+        </Turn>
+        <Turn speaker="spk2" startTime="2.996" endTime="3.914" id="4">
+          <Sync time="2.996" />
+          <anchor id="jmuzerelle_1330952239652" num="4">c'</anchor>
+          est payant
+        </Turn>
+        <Turn speaker="spk1" startTime="3.914" endTime="4.384" id="5">
+          <Sync time="3.914" />
+          non
+        </Turn>
+        <Turn speaker="spk2" startTime="4.384" endTime="4.832" id="6">
+          <Sync time="4.384" />
+          ben merci
+        </Turn>
+        <Turn speaker="spk1" startTime="4.832" endTime="5.795" id="7">
+          <Sync time="4.832" />
+          au delà de dix
+          <anchor id="jmuzerelle_1330952277575" num="5">c'</anchor>
+          est payant
+        </Turn>
+        <Turn speaker="spk2" startTime="5.795" endTime="6.446" id="8">
+          <Sync time="5.795" />
+          merci au [rire]
+        </Turn>
+        <Turn speaker="spk1" startTime="6.446" endTime="7.020" id="9">
+          <Sync time="6.446" />
+          au revoir merci
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1390-64013598" />
+    <unit id="yrives_1330415912562">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">voudrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330416068125">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1330952239652">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1330952277575">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">dix</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330416048859">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">voudrais</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="adrouin_1339779461158">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">8</feature>
+          <feature name="Distance_Word">2</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1330952239652" />
+        <term id="yrives_1330416048859" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1339779482425">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">5</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">47</feature>
+          <feature name="Distance_Word">12</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1330952277575" />
+        <term id="yrives_1330416048859" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

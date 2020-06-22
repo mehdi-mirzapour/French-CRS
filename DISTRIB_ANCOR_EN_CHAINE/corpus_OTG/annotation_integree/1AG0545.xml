@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ag0545" version="2" version_date="031118">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ag0545" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="3.626" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.797" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          <anchor id="sduchon_1329683510761" num="1">vous</anchor>
+          avez
+          <Who nb="2" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk1" startTime="0.797" endTime="1.717" id="2">
+          <Sync time="0.797" />
+          <anchor id="sduchon_1329683566297" num="2">
+            un plan de
+            <anchor id="sduchon_1329683598495" num="3">la ville</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="1.717" endTime="3.033" id="3">
+          <Sync time="1.717" />
+          bien sûr # voilà
+        </Turn>
+        <Turn speaker="spk1" startTime="3.033" endTime="3.626" id="4">
+          <Sync time="3.033" />
+          merci
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="940-5399460" />
+    <unit id="sduchon_1329683510761">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">avez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329683598495">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la ville</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329683566297">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de la ville</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>
