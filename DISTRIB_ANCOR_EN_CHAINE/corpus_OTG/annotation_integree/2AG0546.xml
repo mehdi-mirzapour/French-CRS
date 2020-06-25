@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="2ag0546" version="3" version_date="031119">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="2ag0546" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="8.880" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.577" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.577" endTime="6.162" id="2">
+          <Sync time="0.577" />
+          oui
+          <anchor id="sduchon_1343587083761" num="1">je</anchor>
+          voudrais e
+          <anchor id="sduchon_1343587225529" num="2">
+            le plan
+            <anchor id="sduchon_1343587233696" num="3">des pistes cyclables</anchor>
+          </anchor>
+          s'il vous plaît puis e
+          <anchor id="sduchon_1343587252975" num="4">
+            un plan de
+            <anchor id="sduchon_1343587310244" num="5">Grenoble</anchor>
+          </anchor>
+          aussi si
+          <anchor id="jmuzerelle_1370966184632" num="6">c'</anchor>
+          est
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="6.162" endTime="6.653" id="3">
+          <Sync time="6.162" />
+          <Who nb="1" />
+          voilà
+          <Who nb="2" />
+          possible
+        </Turn>
+        <Turn speaker="spk2" startTime="6.653" endTime="8.436" id="4">
+          <Sync time="6.653" />
+          très bien
+          <anchor id="jmuzerelle_1370966194806" num="7">c'</anchor>
+          est super merci
+        </Turn>
+        <Turn speaker="spk1" startTime="8.436" endTime="8.880" id="5">
+          <Sync time="8.436" />
+          de rien
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1163-14228577" />
+    <unit id="sduchon_1343587083761">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">oui</feature>
+          <feature name="NEXT">voudrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1343587233696">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des pistes cyclables</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">plan</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1343587310244">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">aussi</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1343587225529">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le plan des pistes cyclables</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1343587252975">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">aussi</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1370966184632">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">si</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1370966194806">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">bien</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>

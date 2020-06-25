@@ -1,0 +1,4683 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<annotations>
+    <metadata corpusHashcode="4264-10818918"/>
+    <relation id="adrouin_1331761424175">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">8</feature>
+            </featureSet>
+            <type>ANAPHORE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761424175</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331132663990"/>
+            <term id="adrouin_1331132723099"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761444829">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">NO</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">2</feature>
+            </featureSet>
+            <type>DIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761444829</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331132742661"/>
+            <term id="adrouin_1331132397558"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761470023">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">NO</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">2</feature>
+            </featureSet>
+            <type>ASSOC</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761470023</creation-date>
+            <lastModificationDate>1371043130985</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331132866026"/>
+            <term id="adrouin_1331132397558"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761520505">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">NO</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">11</feature>
+            </featureSet>
+            <type>DIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761520505</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331132887429"/>
+            <term id="adrouin_1331132843406"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761567851">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>ANAPHORE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761567851</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331133056283"/>
+            <term id="adrouin_1331133007674"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761582296">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">1</feature>
+            </featureSet>
+            <type>DIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761582296</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331133074567"/>
+            <term id="adrouin_1331132370398"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761617193">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">NO</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>INDIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761617193</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331155948283"/>
+            <term id="adrouin_1331133056283"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761682136">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">NO</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">17</feature>
+            </featureSet>
+            <type>ASSOC_PRONOM</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761682136</creation-date>
+            <lastModificationDate>1371043010932</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331156058278"/>
+            <term id="adrouin_1331155990917"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761813925">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">NO</feature>
+                <feature name="GENRE">UNK</feature>
+                <feature name="REF">18</feature>
+            </featureSet>
+            <type>ASSOC_PRONOM</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761813925</creation-date>
+            <lastModificationDate>1371043081887</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331156252155"/>
+            <term id="adrouin_1331156154296"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761858541">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">NO</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>DIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761858541</creation-date>
+            <lastModificationDate>1371043202857</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331156560583"/>
+            <term id="adrouin_1331155948283"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761944279">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">NO</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>INDIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761944279</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331156610581"/>
+            <term id="adrouin_1331156560583"/>
+        </positioning>
+    </relation>
+    <relation id="adrouin_1331761978677">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">NO</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">23</feature>
+            </featureSet>
+            <type>DIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331761978677</creation-date>
+            <lastModificationDate>1371043218049</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331156762735"/>
+            <term id="adrouin_1331156750349"/>
+        </positioning>
+    </relation>
+    <relation id="jmuzerelle_1371043052613">
+        <characterisation>
+            <featureSet>
+                <feature name="ID_LOC">YES</feature>
+                <feature name="NOMBRE">YES</feature>
+                <feature name="GENRE">YES</feature>
+                <feature name="REF">22</feature>
+            </featureSet>
+            <type>DIRECTE</type>
+        </characterisation>
+        <metadata>
+            <author>jmuzerelle</author>
+            <creation-date>1371043052613</creation-date>
+            <lastModificationDate>1371043054624</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <term id="adrouin_1331156120351"/>
+            <term id="jmuzerelle_1371043042351"/>
+        </positioning>
+    </relation>
+    <schema id="adrouin_1331156750349">
+        <characterisation>
+            <featureSet>
+                <feature name="default">default</feature>
+                <feature name="REF">23</feature>
+            </featureSet>
+            <type>default</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156750349</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <embedded-unit id="adrouin_1331156721208"/>
+            <embedded-unit id="adrouin_1331156707324"/>
+        </positioning>
+    </schema>
+    <unit id="TXT_IMPORTER_1331132221309">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221309</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="38"/>
+            </end>
+            <start>
+                <singlePosition index="0"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221310">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221310</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="76"/>
+            </end>
+            <start>
+                <singlePosition index="38"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221311">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221311</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="159"/>
+            </end>
+            <start>
+                <singlePosition index="76"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221312">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221312</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="169"/>
+            </end>
+            <start>
+                <singlePosition index="159"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221313">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221313</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="270"/>
+            </end>
+            <start>
+                <singlePosition index="169"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221314">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221314</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="370"/>
+            </end>
+            <start>
+                <singlePosition index="270"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221315">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221315</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="381"/>
+            </end>
+            <start>
+                <singlePosition index="370"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221316">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221316</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="389"/>
+            </end>
+            <start>
+                <singlePosition index="381"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221317">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221317</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="420"/>
+            </end>
+            <start>
+                <singlePosition index="389"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221318">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221318</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="429"/>
+            </end>
+            <start>
+                <singlePosition index="420"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221319">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221319</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="438"/>
+            </end>
+            <start>
+                <singlePosition index="429"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221320">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221320</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="504"/>
+            </end>
+            <start>
+                <singlePosition index="438"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221321">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221321</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="555"/>
+            </end>
+            <start>
+                <singlePosition index="504"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221322">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221322</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="571"/>
+            </end>
+            <start>
+                <singlePosition index="555"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221323">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221323</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="578"/>
+            </end>
+            <start>
+                <singlePosition index="571"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221324">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221324</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="585"/>
+            </end>
+            <start>
+                <singlePosition index="578"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221325">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221325</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="640"/>
+            </end>
+            <start>
+                <singlePosition index="585"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221326">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221326</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="660"/>
+            </end>
+            <start>
+                <singlePosition index="640"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221327">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221327</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="852"/>
+            </end>
+            <start>
+                <singlePosition index="660"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221328">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221328</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="859"/>
+            </end>
+            <start>
+                <singlePosition index="852"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221329">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221329</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="914"/>
+            </end>
+            <start>
+                <singlePosition index="859"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221330">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221330</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="934"/>
+            </end>
+            <start>
+                <singlePosition index="914"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221331">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221331</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="947"/>
+            </end>
+            <start>
+                <singlePosition index="934"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221332">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221332</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="954"/>
+            </end>
+            <start>
+                <singlePosition index="947"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221333">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221333</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1010"/>
+            </end>
+            <start>
+                <singlePosition index="954"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221334">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221334</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1030"/>
+            </end>
+            <start>
+                <singlePosition index="1010"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221335">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221335</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1062"/>
+            </end>
+            <start>
+                <singlePosition index="1030"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221336">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221336</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1069"/>
+            </end>
+            <start>
+                <singlePosition index="1062"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221337">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221337</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1126"/>
+            </end>
+            <start>
+                <singlePosition index="1069"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221338">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221338</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1147"/>
+            </end>
+            <start>
+                <singlePosition index="1126"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221339">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221339</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1295"/>
+            </end>
+            <start>
+                <singlePosition index="1147"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221340">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221340</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1302"/>
+            </end>
+            <start>
+                <singlePosition index="1295"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221341">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221341</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1364"/>
+            </end>
+            <start>
+                <singlePosition index="1302"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221342">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221342</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1385"/>
+            </end>
+            <start>
+                <singlePosition index="1364"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221343">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221343</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1398"/>
+            </end>
+            <start>
+                <singlePosition index="1385"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221344">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221344</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1422"/>
+            </end>
+            <start>
+                <singlePosition index="1398"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221345">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221345</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1435"/>
+            </end>
+            <start>
+                <singlePosition index="1422"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221346">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221346</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1482"/>
+            </end>
+            <start>
+                <singlePosition index="1435"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221347">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221347</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1489"/>
+            </end>
+            <start>
+                <singlePosition index="1482"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221348">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221348</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1546"/>
+            </end>
+            <start>
+                <singlePosition index="1489"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221349">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221349</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1567"/>
+            </end>
+            <start>
+                <singlePosition index="1546"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221350">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221350</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1582"/>
+            </end>
+            <start>
+                <singlePosition index="1567"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221351">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221351</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1589"/>
+            </end>
+            <start>
+                <singlePosition index="1582"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221352">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221352</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1651"/>
+            </end>
+            <start>
+                <singlePosition index="1589"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221353">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221353</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1672"/>
+            </end>
+            <start>
+                <singlePosition index="1651"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221354">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221354</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1685"/>
+            </end>
+            <start>
+                <singlePosition index="1672"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221355">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221355</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1698"/>
+            </end>
+            <start>
+                <singlePosition index="1685"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221356">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221356</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1711"/>
+            </end>
+            <start>
+                <singlePosition index="1698"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221357">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221357</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1719"/>
+            </end>
+            <start>
+                <singlePosition index="1711"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221358">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221358</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1726"/>
+            </end>
+            <start>
+                <singlePosition index="1719"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221359">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221359</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1783"/>
+            </end>
+            <start>
+                <singlePosition index="1726"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221360">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221360</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1804"/>
+            </end>
+            <start>
+                <singlePosition index="1783"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221361">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221361</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1825"/>
+            </end>
+            <start>
+                <singlePosition index="1804"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221362">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221362</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1832"/>
+            </end>
+            <start>
+                <singlePosition index="1825"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221363">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221363</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1889"/>
+            </end>
+            <start>
+                <singlePosition index="1832"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221364">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221364</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1910"/>
+            </end>
+            <start>
+                <singlePosition index="1889"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221365">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221365</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2016"/>
+            </end>
+            <start>
+                <singlePosition index="1910"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221366">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221366</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2023"/>
+            </end>
+            <start>
+                <singlePosition index="2016"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221367">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221367</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2080"/>
+            </end>
+            <start>
+                <singlePosition index="2023"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221368">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221368</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2101"/>
+            </end>
+            <start>
+                <singlePosition index="2080"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221369">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221369</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2162"/>
+            </end>
+            <start>
+                <singlePosition index="2101"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221370">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221370</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2169"/>
+            </end>
+            <start>
+                <singlePosition index="2162"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221371">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221371</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2231"/>
+            </end>
+            <start>
+                <singlePosition index="2169"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221372">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221372</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2252"/>
+            </end>
+            <start>
+                <singlePosition index="2231"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221373">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221373</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2265"/>
+            </end>
+            <start>
+                <singlePosition index="2252"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221374">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221374</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2268"/>
+            </end>
+            <start>
+                <singlePosition index="2265"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221375">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221375</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2281"/>
+            </end>
+            <start>
+                <singlePosition index="2268"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221376">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221376</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2289"/>
+            </end>
+            <start>
+                <singlePosition index="2281"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221377">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221377</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2296"/>
+            </end>
+            <start>
+                <singlePosition index="2289"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221378">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221378</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2352"/>
+            </end>
+            <start>
+                <singlePosition index="2296"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221379">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221379</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2373"/>
+            </end>
+            <start>
+                <singlePosition index="2352"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221380">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221380</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2404"/>
+            </end>
+            <start>
+                <singlePosition index="2373"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221381">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221381</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2411"/>
+            </end>
+            <start>
+                <singlePosition index="2404"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221382">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221382</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2472"/>
+            </end>
+            <start>
+                <singlePosition index="2411"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221383">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221383</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2492"/>
+            </end>
+            <start>
+                <singlePosition index="2472"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221384">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221384</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2505"/>
+            </end>
+            <start>
+                <singlePosition index="2492"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221385">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221385</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2508"/>
+            </end>
+            <start>
+                <singlePosition index="2505"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221386">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221386</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2521"/>
+            </end>
+            <start>
+                <singlePosition index="2508"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221387">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221387</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2536"/>
+            </end>
+            <start>
+                <singlePosition index="2521"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221388">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221388</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2543"/>
+            </end>
+            <start>
+                <singlePosition index="2536"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221389">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221389</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2600"/>
+            </end>
+            <start>
+                <singlePosition index="2543"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221390">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221390</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2621"/>
+            </end>
+            <start>
+                <singlePosition index="2600"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221391">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221391</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2687"/>
+            </end>
+            <start>
+                <singlePosition index="2621"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221392">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221392</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2694"/>
+            </end>
+            <start>
+                <singlePosition index="2687"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221393">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221393</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2756"/>
+            </end>
+            <start>
+                <singlePosition index="2694"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221394">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221394</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2777"/>
+            </end>
+            <start>
+                <singlePosition index="2756"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221395">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221395</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2790"/>
+            </end>
+            <start>
+                <singlePosition index="2777"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221396">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221396</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2801"/>
+            </end>
+            <start>
+                <singlePosition index="2790"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221397">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221397</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2814"/>
+            </end>
+            <start>
+                <singlePosition index="2801"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221398">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221398</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2822"/>
+            </end>
+            <start>
+                <singlePosition index="2814"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221399">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221399</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2829"/>
+            </end>
+            <start>
+                <singlePosition index="2822"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221400">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221400</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2886"/>
+            </end>
+            <start>
+                <singlePosition index="2829"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221401">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221401</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2907"/>
+            </end>
+            <start>
+                <singlePosition index="2886"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221402">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221402</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3010"/>
+            </end>
+            <start>
+                <singlePosition index="2907"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221403">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221403</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3017"/>
+            </end>
+            <start>
+                <singlePosition index="3010"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221404">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221404</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3074"/>
+            </end>
+            <start>
+                <singlePosition index="3017"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221405">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221405</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3095"/>
+            </end>
+            <start>
+                <singlePosition index="3074"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221406">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221406</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3098"/>
+            </end>
+            <start>
+                <singlePosition index="3095"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221407">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221407</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3105"/>
+            </end>
+            <start>
+                <singlePosition index="3098"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221408">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221408</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3162"/>
+            </end>
+            <start>
+                <singlePosition index="3105"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221409">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221409</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3183"/>
+            </end>
+            <start>
+                <singlePosition index="3162"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221410">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221410</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3197"/>
+            </end>
+            <start>
+                <singlePosition index="3183"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221411">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221411</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3204"/>
+            </end>
+            <start>
+                <singlePosition index="3197"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221412">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221412</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3266"/>
+            </end>
+            <start>
+                <singlePosition index="3204"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221413">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221413</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3287"/>
+            </end>
+            <start>
+                <singlePosition index="3266"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221414">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221414</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3300"/>
+            </end>
+            <start>
+                <singlePosition index="3287"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221415">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221415</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3315"/>
+            </end>
+            <start>
+                <singlePosition index="3300"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221416">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221416</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3328"/>
+            </end>
+            <start>
+                <singlePosition index="3315"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221417">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221417</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3358"/>
+            </end>
+            <start>
+                <singlePosition index="3328"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221418">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221418</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3365"/>
+            </end>
+            <start>
+                <singlePosition index="3358"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221419">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221419</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3422"/>
+            </end>
+            <start>
+                <singlePosition index="3365"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221420">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221420</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3443"/>
+            </end>
+            <start>
+                <singlePosition index="3422"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221421">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221421</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3458"/>
+            </end>
+            <start>
+                <singlePosition index="3443"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221422">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221422</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3465"/>
+            </end>
+            <start>
+                <singlePosition index="3458"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221423">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221423</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3522"/>
+            </end>
+            <start>
+                <singlePosition index="3465"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221424">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221424</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3543"/>
+            </end>
+            <start>
+                <singlePosition index="3522"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221425">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221425</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3560"/>
+            </end>
+            <start>
+                <singlePosition index="3543"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221426">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221426</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3567"/>
+            </end>
+            <start>
+                <singlePosition index="3560"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221427">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221427</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3624"/>
+            </end>
+            <start>
+                <singlePosition index="3567"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221428">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221428</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3645"/>
+            </end>
+            <start>
+                <singlePosition index="3624"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221429">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221429</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3660"/>
+            </end>
+            <start>
+                <singlePosition index="3645"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221430">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221430</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3667"/>
+            </end>
+            <start>
+                <singlePosition index="3660"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221431">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221431</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3729"/>
+            </end>
+            <start>
+                <singlePosition index="3667"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221432">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221432</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3750"/>
+            </end>
+            <start>
+                <singlePosition index="3729"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221433">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221433</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3763"/>
+            </end>
+            <start>
+                <singlePosition index="3750"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221434">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221434</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3769"/>
+            </end>
+            <start>
+                <singlePosition index="3763"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221435">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221435</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3782"/>
+            </end>
+            <start>
+                <singlePosition index="3769"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221436">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221436</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3787"/>
+            </end>
+            <start>
+                <singlePosition index="3782"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221437">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221437</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3794"/>
+            </end>
+            <start>
+                <singlePosition index="3787"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221438">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221438</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3851"/>
+            </end>
+            <start>
+                <singlePosition index="3794"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221439">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221439</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3872"/>
+            </end>
+            <start>
+                <singlePosition index="3851"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221440">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221440</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3879"/>
+            </end>
+            <start>
+                <singlePosition index="3872"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221441">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221441</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3886"/>
+            </end>
+            <start>
+                <singlePosition index="3879"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221442">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221442</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3943"/>
+            </end>
+            <start>
+                <singlePosition index="3886"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221443">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221443</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3964"/>
+            </end>
+            <start>
+                <singlePosition index="3943"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221444">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221444</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3977"/>
+            </end>
+            <start>
+                <singlePosition index="3964"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221445">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221445</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3984"/>
+            </end>
+            <start>
+                <singlePosition index="3977"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221446">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221446</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4046"/>
+            </end>
+            <start>
+                <singlePosition index="3984"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221447">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221447</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4067"/>
+            </end>
+            <start>
+                <singlePosition index="4046"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221448">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221448</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4080"/>
+            </end>
+            <start>
+                <singlePosition index="4067"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221449">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221449</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4089"/>
+            </end>
+            <start>
+                <singlePosition index="4080"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221450">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221450</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4102"/>
+            </end>
+            <start>
+                <singlePosition index="4089"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221451">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221451</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4107"/>
+            </end>
+            <start>
+                <singlePosition index="4102"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221452">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221452</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4114"/>
+            </end>
+            <start>
+                <singlePosition index="4107"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221453">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221453</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4171"/>
+            </end>
+            <start>
+                <singlePosition index="4114"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221454">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221454</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4192"/>
+            </end>
+            <start>
+                <singlePosition index="4171"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221455">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221455</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4201"/>
+            </end>
+            <start>
+                <singlePosition index="4192"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221456">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221456</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4208"/>
+            </end>
+            <start>
+                <singlePosition index="4201"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221457">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221457</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4218"/>
+            </end>
+            <start>
+                <singlePosition index="4208"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221458">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221458</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4228"/>
+            </end>
+            <start>
+                <singlePosition index="4218"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="TXT_IMPORTER_1331132221459">
+        <characterisation>
+            <featureSet/>
+            <type>paragraph</type>
+        </characterisation>
+        <metadata>
+            <author>TXT_IMPORTER</author>
+            <creation-date>1331132221459</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="4236"/>
+            </end>
+            <start>
+                <singlePosition index="4228"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132334893">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132334893</creation-date>
+            <lastModificationDate>1331132343847</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="699"/>
+            </end>
+            <start>
+                <singlePosition index="683"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132351865">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132351865</creation-date>
+            <lastModificationDate>1331132356436</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="718"/>
+            </end>
+            <start>
+                <singlePosition index="714"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132370398">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+                <feature name="REF">1</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132370398</creation-date>
+            <lastModificationDate>1331132389961</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="743"/>
+            </end>
+            <start>
+                <singlePosition index="727"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132397558">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">2</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132397558</creation-date>
+            <lastModificationDate>1331132413969</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="768"/>
+            </end>
+            <start>
+                <singlePosition index="758"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132463140">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132463140</creation-date>
+            <lastModificationDate>1331551384023</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="806"/>
+            </end>
+            <start>
+                <singlePosition index="789"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132514402">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132514402</creation-date>
+            <lastModificationDate>1331132523996</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="821"/>
+            </end>
+            <start>
+                <singlePosition index="812"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132566989">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132566989</creation-date>
+            <lastModificationDate>1331551410495</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="852"/>
+            </end>
+            <start>
+                <singlePosition index="841"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132607019">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">LOC</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">UNK</feature>
+                <feature name="NB">UNK</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132607019</creation-date>
+            <lastModificationDate>1331132618672</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1042"/>
+            </end>
+            <start>
+                <singlePosition index="1034"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132623664">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132623664</creation-date>
+            <lastModificationDate>1331132635255</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1062"/>
+            </end>
+            <start>
+                <singlePosition index="1050"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132652852">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132652852</creation-date>
+            <lastModificationDate>1331132656128</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1173"/>
+            </end>
+            <start>
+                <singlePosition index="1169"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132663990">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_DEM</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">8</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132663990</creation-date>
+            <lastModificationDate>1331998049222</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1186"/>
+            </end>
+            <start>
+                <singlePosition index="1184"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132723099">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">8</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132723099</creation-date>
+            <lastModificationDate>1331132731913</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1207"/>
+            </end>
+            <start>
+                <singlePosition index="1195"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132742661">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">2</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132742661</creation-date>
+            <lastModificationDate>1331132762972</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1232"/>
+            </end>
+            <start>
+                <singlePosition index="1222"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132784859">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132784859</creation-date>
+            <lastModificationDate>1331132795592</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1260"/>
+            </end>
+            <start>
+                <singlePosition index="1243"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132801223">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132801223</creation-date>
+            <lastModificationDate>1331551788450</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1281"/>
+            </end>
+            <start>
+                <singlePosition index="1271"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132843406">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">11</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132843406</creation-date>
+            <lastModificationDate>1331132858163</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1413"/>
+            </end>
+            <start>
+                <singlePosition index="1398"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132866026">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">2</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132866026</creation-date>
+            <lastModificationDate>1371042930598</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1482"/>
+            </end>
+            <start>
+                <singlePosition index="1458"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132887429">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">11</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132887429</creation-date>
+            <lastModificationDate>1331132896196</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1582"/>
+            </end>
+            <start>
+                <singlePosition index="1567"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132949018">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132949018</creation-date>
+            <lastModificationDate>1331132973791</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1820"/>
+            </end>
+            <start>
+                <singlePosition index="1812"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331133007674">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331133007674</creation-date>
+            <lastModificationDate>1331551827346</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1948"/>
+            </end>
+            <start>
+                <singlePosition index="1932"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331133042821">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">GENE</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">UNK</feature>
+                <feature name="NB">UNK</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331133042821</creation-date>
+            <lastModificationDate>1371042953738</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1951"/>
+            </end>
+            <start>
+                <singlePosition index="1949"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331133056283">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_DEM</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331133056283</creation-date>
+            <lastModificationDate>1331551884018</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1971"/>
+            </end>
+            <start>
+                <singlePosition index="1969"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331133074567">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">NO</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+                <feature name="REF">1</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331133074567</creation-date>
+            <lastModificationDate>1331133081883</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="1996"/>
+            </end>
+            <start>
+                <singlePosition index="1977"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155788726">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155788726</creation-date>
+            <lastModificationDate>1331155794170</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2114"/>
+            </end>
+            <start>
+                <singlePosition index="2112"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155809755">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155809755</creation-date>
+            <lastModificationDate>1331155812890</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2128"/>
+            </end>
+            <start>
+                <singlePosition index="2127"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155830300">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155830300</creation-date>
+            <lastModificationDate>1331155869222</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2154"/>
+            </end>
+            <start>
+                <singlePosition index="2132"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155889049">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155889049</creation-date>
+            <lastModificationDate>1331155894728</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2157"/>
+            </end>
+            <start>
+                <singlePosition index="2155"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155918721">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155918721</creation-date>
+            <lastModificationDate>1331155921965</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2374"/>
+            </end>
+            <start>
+                <singlePosition index="2373"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155948283">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155948283</creation-date>
+            <lastModificationDate>1331551936666</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2404"/>
+            </end>
+            <start>
+                <singlePosition index="2389"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156006720">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">GENE</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156006720</creation-date>
+            <lastModificationDate>1331551960521</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2659"/>
+            </end>
+            <start>
+                <singlePosition index="2650"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156021790">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156021790</creation-date>
+            <lastModificationDate>1331551976665</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2671"/>
+            </end>
+            <start>
+                <singlePosition index="2662"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156058278">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">17</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156058278</creation-date>
+            <lastModificationDate>1371042996679</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2687"/>
+            </end>
+            <start>
+                <singlePosition index="2683"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156091023">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156091023</creation-date>
+            <lastModificationDate>1331156093363</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2948"/>
+            </end>
+            <start>
+                <singlePosition index="2947"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156154296">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">ORG</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">UNK</feature>
+                <feature name="NB">UNK</feature>
+                <feature name="REF">18</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156154296</creation-date>
+            <lastModificationDate>1331998667939</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3009"/>
+            </end>
+            <start>
+                <singlePosition index="2996"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156252155">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">18</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156252155</creation-date>
+            <lastModificationDate>1371043065327</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3192"/>
+            </end>
+            <start>
+                <singlePosition index="3189"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156560583">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">SG</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156560583</creation-date>
+            <lastModificationDate>1371043161429</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3339"/>
+            </end>
+            <start>
+                <singlePosition index="3328"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156610581">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">13</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156610581</creation-date>
+            <lastModificationDate>1331552116035</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3458"/>
+            </end>
+            <start>
+                <singlePosition index="3443"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156649128">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156649128</creation-date>
+            <lastModificationDate>1331156651437</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3647"/>
+            </end>
+            <start>
+                <singlePosition index="3645"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156672162">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>PR</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156672162</creation-date>
+            <lastModificationDate>1331156675266</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3652"/>
+            </end>
+            <start>
+                <singlePosition index="3648"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156683799">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">PERS</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156683799</creation-date>
+            <lastModificationDate>1331156689322</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3769"/>
+            </end>
+            <start>
+                <singlePosition index="3763"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156707324">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NULL</feature>
+                <feature name="GEN_REF">NULL</feature>
+                <feature name="EN">NULL</feature>
+                <feature name="DEF">NULL</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">NULL</feature>
+                <feature name="NB">NULL</feature>
+                <feature name="REF">23</feature>
+            </featureSet>
+            <type>NULL</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156707324</creation-date>
+            <lastModificationDate>0</lastModificationDate>
+            <lastModifier>n/a</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3787"/>
+            </end>
+            <start>
+                <singlePosition index="3782"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156721208">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+                <feature name="REF">23</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156721208</creation-date>
+            <lastModificationDate>1331156745295</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3879"/>
+            </end>
+            <start>
+                <singlePosition index="3872"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156762735">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+                <feature name="REF">23</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156762735</creation-date>
+            <lastModificationDate>1331156770769</lastModificationDate>
+            <lastModifier>adrouin</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3977"/>
+            </end>
+            <start>
+                <singlePosition index="3964"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132498084">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132498084</creation-date>
+            <lastModificationDate>1371042880563</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="788"/>
+            </end>
+            <start>
+                <singlePosition index="780"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331132533839">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">YES</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">SG</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331132533839</creation-date>
+            <lastModificationDate>1331551406162</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="852"/>
+            </end>
+            <start>
+                <singlePosition index="827"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331155990917">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">YES</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">INDEF</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">M</feature>
+                <feature name="NB">SG</feature>
+                <feature name="REF">17</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331155990917</creation-date>
+            <lastModificationDate>1371042980311</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2659"/>
+            </end>
+            <start>
+                <singlePosition index="2639"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="adrouin_1331156120351">
+        <characterisation>
+            <featureSet>
+                <feature name="NEW">NO</feature>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">22</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>adrouin</author>
+            <creation-date>1331156120351</creation-date>
+            <lastModificationDate>1371043057473</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="3009"/>
+            </end>
+            <start>
+                <singlePosition index="2976"/>
+            </start>
+        </positioning>
+    </unit>
+    <unit id="jmuzerelle_1371043042351">
+        <characterisation>
+            <featureSet>
+                <feature name="GEN_REF">SPEC</feature>
+                <feature name="NEW">YES</feature>
+                <feature name="EN">NO</feature>
+                <feature name="DEF">DEF_SPLE</feature>
+                <feature name="GP">NO</feature>
+                <feature name="GENRE">F</feature>
+                <feature name="NB">PL</feature>
+                <feature name="REF">22</feature>
+            </featureSet>
+            <type>N</type>
+        </characterisation>
+        <metadata>
+            <author>jmuzerelle</author>
+            <creation-date>1371043042351</creation-date>
+            <lastModificationDate>1371043046682</lastModificationDate>
+            <lastModifier>jmuzerelle</lastModifier>
+        </metadata>
+        <positioning>
+            <end>
+                <singlePosition index="2973"/>
+            </end>
+            <start>
+                <singlePosition index="2956"/>
+            </start>
+        </positioning>
+    </unit>
+</annotations>

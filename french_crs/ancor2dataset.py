@@ -79,7 +79,6 @@ class read_ancor_file():
 
         self.json_mentions = json_mentions_
 
-
     # return relations in json format based on the json mentions
     def generate_json_relations(self):
         
@@ -425,7 +424,7 @@ class dataset_builder(read_ancor_file):
             ancor_subcorpus_path = self.ancor_corpus_path+sub_corpus+'/'
 
             corpus_files = [file[file.rfind(
-                "/")+1:-4] for file in glob.glob(ancor_subcorpus_path+"annotation_integree/*.xml")]
+                "/")+1:-3] for file in glob.glob(ancor_subcorpus_path+"aa_fichiers/*.aa")]
 
             list_dataframes = []
 

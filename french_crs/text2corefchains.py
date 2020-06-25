@@ -7,6 +7,8 @@ import re
 from bs4 import BeautifulSoup
 import joblib
 from pathlib import Path
+from spacy.matcher import Matcher
+
 
 
 class udpipe_spacy_lang_model:
@@ -290,8 +292,6 @@ class udpipe_spacy_lang_model:
 
 
 
-
-
 class mentions2chains:
 
     def __init__(self, mentions_ids_in_json_sents):
@@ -542,14 +542,12 @@ class mentions2chains:
         words_list_l = mention_list_1[0].lower().split()
         words_list_2 = mention_list_2[0].lower().split()
         len_of_words_min = min(len(words_list_l), len(words_list_2))
-        len_of_words_max = max(len(words_list_l), len(words_list_2))
         len_intersection = len(self.intersection(words_list_l, words_list_2))
         return(len_intersection/len_of_words_min)
 
     def check_com_rate(self, mention_list_1, mention_list_2):
         words_list_l = mention_list_1[0].lower().split()
         words_list_2 = mention_list_2[0].lower().split()
-        len_of_words_min = min(len(words_list_l), len(words_list_2))
         len_of_words_max = max(len(words_list_l), len(words_list_2))
         len_intersection = len(self.intersection(words_list_l, words_list_2))
         return(len_intersection/len_of_words_max)

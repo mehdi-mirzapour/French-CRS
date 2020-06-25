@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1pf0472" version="3" version_date="031119">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1pf0472" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="4.914" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.582" speaker="spk2" id="1">
+          <Sync time="0" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk1" startTime="0.582" endTime="1.478" id="2">
+          <Sync time="0.582" />
+          <anchor id="agoudjo_1330338610566" num="1">je</anchor>
+          pourrais avoir
+          <anchor id="agoudjo_1330338622198" num="2">un plan de</anchor>
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="1.478" endTime="2.383" id="3">
+          <Sync time="1.478" />
+          <Who nb="1" />
+          bien sûr
+          <Who nb="2" />
+          <anchor id="agoudjo_1330338648174" num="3">Gap</anchor>
+          s'il vous plaît
+        </Turn>
+        <Turn speaker="spk2" startTime="2.383" endTime="3.659" id="4">
+          <Sync time="2.383" />
+          voilà
+        </Turn>
+        <Turn speaker="spk1" startTime="3.659" endTime="4.035" id="5">
+          <Sync time="3.659" />
+          merci
+        </Turn>
+        <Turn speaker="spk2" startTime="4.035" endTime="4.368" id="6">
+          <Sync time="4.035" />
+          c'est
+          <anchor id="agoudjo_1330338718838" num="4">moi</anchor>
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="4.368" endTime="4.914" id="7">
+          <Sync time="4.368" />
+          <Who nb="1" />
+          <anchor id="agoudjo_1330338723918" num="5">on</anchor>
+          sait jamais
+          <Who nb="2" />
+          <anchor id="agoudjo_1330338739565" num="6">monsieur</anchor>
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1273-2399760" />
+    <unit id="agoudjo_1330338610566">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">pourrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330338622198">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">avoir</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330338648174">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Gap</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">sûr</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330338718838">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">moi</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330338723918">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">sait</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330338739565">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">monsieur</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">jamais</feature>
+          <feature name="NEXT">au</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <schema id="agoudjo_1330338665286">
+      <metadata>
+        <author>agoudjo</author>
+        <creation-date>1330338665286</creation-date>
+        <lastModifier>n/a</lastModifier>
+        <lastModificationDate>0</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="agoudjo_1330338622198" />
+        <embedded-unit id="agoudjo_1330338648174" />
+      </positioning>
+    </schema>
+  </annotations>
+</ANCOR>

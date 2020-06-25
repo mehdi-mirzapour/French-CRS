@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ag0367" version="1" version_date="011008">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ag0367" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="9.820" topic="to1" id="1">
+        <Turn startTime="0" endTime="3.39" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+          <anchor id="sduchon_1329168917182" num="1">je</anchor>
+          voudrais savoir
+          <anchor id="sduchon_1329168969371" num="2">
+            les adresses
+            <anchor id="sduchon_1329168984818" num="3">
+              des écoles de
+              <anchor id="sduchon_1329169038311" num="4">danse</anchor>
+            </anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="3.39" endTime="4.052" id="2">
+          <Sync time="3.39" />
+          <Who nb="1" />
+          oui
+          <Who nb="2" />
+          sur
+          <anchor id="sduchon_1329169096108" num="5">Grenoble</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="4.052" endTime="9.446" id="3">
+          <Sync time="4.052" />
+          <anchor id="sduchon_1329168926101" num="6">je</anchor>
+          <anchor id="sduchon_1329168927733" num="7">vous</anchor>
+          laisse consulter
+          <anchor id="sduchon_1329169112538" num="8">la base</anchor>
+          sur
+          <anchor id="sduchon_1329169122658" num="9">la table</anchor>
+          <anchor id="sduchon_1329169134233" num="10">madame</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="9.446" endTime="9.820" id="4">
+          <Sync time="9.446" />
+          d'accord
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1002-19498050" />
+    <unit id="sduchon_1329168917182">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">voudrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329168926101">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">vous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329168927733">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">je</feature>
+          <feature name="NEXT">laisse</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169038311">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">danse</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169096108">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">sur</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169112538">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la base</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">consulter</feature>
+          <feature name="NEXT">sur</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169122658">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la table</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">sur</feature>
+          <feature name="NEXT">madame</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169134233">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">table</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329168984818">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des écoles de danse</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">adresses</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329168969371">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les adresses des écoles de danse</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">savoir</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1pf0468" version="2" version_date="031119">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1pf0468" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="6.728" topic="to1" id="1">
+        <Turn startTime="0" endTime="2.671" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="agoudjo_1330336903861" num="1">vous</anchor>
+          auriez
+          <anchor id="agoudjo_1330336918934" num="2">
+            un plan de
+            <anchor id="agoudjo_1330336939429" num="3">Grenoble</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="2.671" endTime="5.043" id="2">
+          <Sync time="2.671" />
+          <anchor id="agoudjo_1330336959214" num="4">
+            un plan de
+            <anchor id="agoudjo_1330337004070" num="5">Grenoble</anchor>
+          </anchor>
+          # voilà
+        </Turn>
+        <Turn speaker="spk1" startTime="5.043" endTime="5.906" id="3">
+          <Sync time="5.043" />
+          merci
+        </Turn>
+        <Turn speaker="spk2" startTime="5.906" endTime="6.728" id="4">
+          <Sync time="5.906" />
+          c'est
+          <anchor id="agoudjo_1330337023246" num="6">moi</anchor>
+          <anchor id="agoudjo_1330337041909" num="7">mademoiselle</anchor>
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="947-16588341" />
+    <unit id="agoudjo_1330336903861">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">auriez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330336939429">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330337004070">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">#</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330337023246">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">moi</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">mademoiselle</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330337041909">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">mademoiselle</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">moi</feature>
+          <feature name="NEXT">au</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330336918934">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">auriez</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330336959214">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">#</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="agoudjo_1331043702418">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330336959214" />
+        <term id="agoudjo_1330336918934" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331043724846">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">10</feature>
+          <feature name="Distance_Word">3</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330337004070" />
+        <term id="agoudjo_1330336939429" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

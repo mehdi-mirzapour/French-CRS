@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1SB0211" version="4" version_date="040104">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0211" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="7.627" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.601" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.601" endTime="4.098" id="2">
+          <Sync time="0.601" />
+          c'est bien ici que
+          <anchor id="mgodefroy_1330518279319" num="1">vous</anchor>
+          avez
+          <anchor id="mgodefroy_1330518293154" num="2">le programme</anchor>
+          pour
+          <anchor id="mgodefroy_1330518331540" num="3">
+            "connaissance
+            <anchor id="jmuzerelle_1369837646274" num="4">du monde</anchor>
+          </anchor>
+          "
+        </Turn>
+        <Turn speaker="spk1" startTime="4.098" endTime="5.278" id="3">
+          <Sync time="4.098" />
+          <anchor id="mgodefroy_1330518386179" num="5">il</anchor>
+          est en
+          <anchor id="jmuzerelle_1330707639483" num="6">libre-service</anchor>
+          là
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="5.278" endTime="5.651" id="4">
+          <Sync time="5.278" />
+          <Who nb="1" />
+          ah
+          <Who nb="2" />
+          bas
+        </Turn>
+        <Turn speaker="spk2" startTime="5.651" endTime="6.632" id="5">
+          <Sync time="5.651" />
+          [rire]
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="6.632" endTime="7.211" id="6">
+          <Sync time="6.632" />
+          <Who nb="1" />
+          non mais
+          <anchor id="jmuzerelle_1370956878260" num="7">c'</anchor>
+          est
+          <Who nb="2" />
+          merci
+        </Turn>
+        <Turn speaker="spk1" startTime="7.211" endTime="7.627" id="7">
+          <Sync time="7.211" />
+          pas grave
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1342-84061593" />
+    <unit id="mgodefroy_1330518279319">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">avez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330518331540">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">EVENT</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">"connaissance du monde</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">pour</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330518386179">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1330707639483">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">libre-service</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">en</feature>
+          <feature name="NEXT">là</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330518293154">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le programme</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avez</feature>
+          <feature name="NEXT">pour</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369837646274">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">du monde</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">connaissance</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1370956878260">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">mais</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="mgodefroy_1330518602107">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">29</feature>
+          <feature name="Distance_Word">5</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1330518386179" />
+        <term id="mgodefroy_1330518293154" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

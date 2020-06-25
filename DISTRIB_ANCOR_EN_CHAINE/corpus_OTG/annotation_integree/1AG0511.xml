@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ag0511" version="2" version_date="040103">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ag0511" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="23.244" topic="to1" id="1">
+        <Turn startTime="0" endTime="5.768" speaker="spk1" id="1">
+          <Sync time="0" />
+          excusez
+          <anchor id="sduchon_1329580380961" num="1">moi</anchor>
+          il y a il y a une
+          <anchor id="sduchon_1329580656397" num="2">un hôtel Balladin</anchor>
+          près de
+          <anchor id="sduchon_1329580678603" num="3">Grenoble</anchor>
+          mais
+        </Turn>
+        <Turn speaker="spk2" startTime="5.768" endTime="9.663" id="2">
+          <Sync time="5.768" />
+          e c'est possible mais s'
+          <anchor id="sduchon_1329580564265" num="4">il</anchor>
+          ne fait pas partie de
+          <anchor id="sduchon_1329580702633" num="5">nos adhérents</anchor>
+          <anchor id="sduchon_1329580397800" num="6">on</anchor>
+          ne
+          <anchor id="sduchon_1329580637389" num="7">l'</anchor>
+          a pas sur
+          <anchor id="sduchon_1329580721480" num="8">les listes</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="9.663" endTime="10.171" id="3">
+          <Sync time="9.663" />
+          d'accord
+        </Turn>
+        <Turn speaker="spk2" startTime="10.171" endTime="11.527" id="4">
+          <Sync time="10.171" />
+          <anchor id="sduchon_1329580410290" num="9">i</anchor>
+          l faut voir e "
+          <anchor id="sduchon_1329580753950" num="10">pages jaunes</anchor>
+          "
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="11.527" endTime="12.022" id="5">
+          <Sync time="11.527" />
+          <Who nb="1" />
+          d'accord
+          <Who nb="2" />
+          <anchor id="sduchon_1329580524164" num="11">je</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="12.022" endTime="13.312" id="6">
+          <Sync time="12.022" />
+          peux
+          <anchor id="sduchon_1329580768192" num="12">vous</anchor>
+          donner "
+          <anchor id="sduchon_1329580776189" num="13">les pages jaunes</anchor>
+          " si
+          <anchor id="sduchon_1329580531347" num="14">vous</anchor>
+          voulez
+        </Turn>
+        <Turn speaker="spk1" startTime="13.312" endTime="19.4" id="7">
+          <Sync time="13.312" />
+          oui
+          <anchor id="sduchon_1329580536859" num="15">je</anchor>
+          veux bien s'il vous plaît
+        </Turn>
+        <Turn speaker="spk2" startTime="19.4" endTime="20.357" id="8">
+          <Sync time="19.4" />
+          voilà
+        </Turn>
+        <Turn speaker="spk1" startTime="20.357" endTime="21.4" id="9">
+          <Sync time="20.357" />
+          merci
+        </Turn>
+        <Turn speaker="spk2" startTime="21.4" endTime="22.427" id="10">
+          <Sync time="21.4" />
+          de rien
+          <anchor id="sduchon_1329580549370" num="16">je</anchor>
+          <anchor id="sduchon_1329580553306" num="17">vous</anchor>
+          laisse
+          <anchor id="sduchon_1329838978386" num="18">ça</anchor>
+          hein
+        </Turn>
+        <Turn speaker="spk1" startTime="22.427" endTime="23.244" id="11">
+          <Sync time="22.427" />
+          merci
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1812-38136186" />
+    <unit id="sduchon_1329580380961">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">moi</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">excusez</feature>
+          <feature name="NEXT">il</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580397800">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">adhérents</feature>
+          <feature name="NEXT">ne</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580410290">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">i</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">l</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580524164">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">d'accord</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580531347">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">si</feature>
+          <feature name="NEXT">voulez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580536859">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">oui</feature>
+          <feature name="NEXT">veux</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580549370">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">rien</feature>
+          <feature name="NEXT">vous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580553306">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">je</feature>
+          <feature name="NEXT">laisse</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580564265">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">s'</feature>
+          <feature name="NEXT">ne</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580637389">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">l'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ne</feature>
+          <feature name="NEXT">a</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580678603">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">mais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580702633">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">nos adhérents</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">on</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580721480">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les listes</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">sur</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580753950">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">pages jaunes</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580768192">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">peux</feature>
+          <feature name="NEXT">donner</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580776189">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les pages jaunes</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329838978386">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">ça</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">laisse</feature>
+          <feature name="NEXT">hein</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329580656397">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un hôtel Balladin</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">une</feature>
+          <feature name="NEXT">près</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="sduchon_1330436328810">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">90</feature>
+          <feature name="Distance_Word">19</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1329580637389" />
+        <term id="sduchon_1329580656397" />
+      </positioning>
+    </relation>
+    <relation id="sduchon_1330436340003">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">30</feature>
+          <feature name="Distance_Word">7</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1329580776189" />
+        <term id="sduchon_1329580753950" />
+      </positioning>
+    </relation>
+    <relation id="sduchon_1330436366679">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">6</feature>
+          <feature name="Distance_Mention">8</feature>
+          <feature name="Distance_Char">128</feature>
+          <feature name="Distance_Word">28</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1329838978386" />
+        <term id="sduchon_1329580753950" />
+      </positioning>
+    </relation>
+    <relation id="sduchon_1330436414908">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">45</feature>
+          <feature name="Distance_Word">9</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1329580564265" />
+        <term id="sduchon_1329580656397" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1330622087882">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1329580656397" />
+        <term id="sduchon_1329580702633" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

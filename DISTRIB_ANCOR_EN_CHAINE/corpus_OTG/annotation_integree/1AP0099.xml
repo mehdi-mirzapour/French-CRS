@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ap0099" version="3" version_date="031118">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" dialect="native" accent="" scope="local" type="female" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ap0099" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="12.576" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.312" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          est ce
+          <anchor id="sduchon_1340297253704" num="1">vous</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="0.312" endTime="2.778" id="2">
+          <Sync time="0.312" />
+          avez
+          <anchor id="sduchon_1340297486930" num="2">un magazine</anchor>
+          <anchor id="sduchon_1340297260655" num="3">qui</anchor>
+          présente
+          <anchor id="sduchon_1340297495530" num="4">Grenoble</anchor>
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="2.778" endTime="3.068" id="3">
+          <Sync time="2.778" />
+          <Who nb="1" />
+          un petit
+          <Who nb="2" />
+          oui hum
+        </Turn>
+        <Turn speaker="spk2" startTime="3.068" endTime="4.078" id="4">
+          <Sync time="3.068" />
+          peu sous toutes ses
+        </Turn>
+        <Turn speaker="spk1" startTime="4.078" endTime="5.036" id="5">
+          <Sync time="4.078" />
+          <anchor id="sduchon_1340297510481" num="5">
+            "
+            <anchor id="jmuzerelle_1370617912726" num="6">Grenoble</anchor>
+            magazine
+          </anchor>
+          "
+        </Turn>
+        <Turn speaker="spk2" startTime="5.036" endTime="7.097" id="6">
+          <Sync time="5.036" />
+          voilà # ah ben c'est parfait
+        </Turn>
+        <Turn speaker="spk1" startTime="7.097" endTime="8.413" id="7">
+          <Sync time="7.097" />
+          eh ben c'est super
+        </Turn>
+        <Turn speaker="spk2" startTime="8.413" endTime="11.193" id="8">
+          <Sync time="8.413" />
+          [rire] oui #
+          <anchor id="sduchon_1340297408023" num="7">j'</anchor>
+          adore
+        </Turn>
+        <Turn speaker="spk2" startTime="11.193" endTime="11.834" id="9">
+          <Sync time="11.193" />
+          merci bien
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="11.834" endTime="12.576" id="10">
+          <Sync time="11.834" />
+          <Who nb="1" />
+          au revoir
+          <anchor id="sduchon_1340297468475" num="8">madame</anchor>
+          merci
+          <Who nb="2" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1664-49155084" />
+    <unit id="sduchon_1340297253704">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ce</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1340297260655">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">qui</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">magazine</feature>
+          <feature name="NEXT">présente</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1340297408023">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">j'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">#</feature>
+          <feature name="NEXT">adore</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1340297468475">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">revoir</feature>
+          <feature name="NEXT">merci</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1340297486930">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un magazine</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avez</feature>
+          <feature name="NEXT">qui</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1340297495530">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">présente</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1340297510481">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PROD</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">"Grenoble magazine</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1370617912726">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">magazine</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="sduchon_1342524035200">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">0</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1340297260655" />
+        <term id="sduchon_1340297486930" />
+      </positioning>
+    </relation>
+    <relation id="sduchon_1342524044762">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">56</feature>
+          <feature name="Distance_Word">11</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1340297510481" />
+        <term id="sduchon_1340297486930" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

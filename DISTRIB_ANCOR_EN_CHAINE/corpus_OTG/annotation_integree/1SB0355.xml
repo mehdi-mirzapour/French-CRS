@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1SB0355" version="3" version_date="031119">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0355" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="13.836" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.62" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.62" endTime="6.043" id="2">
+          <Sync time="0.62" />
+          est ce que
+          <anchor id="gpascault_1353139896561" num="1">je</anchor>
+          pourrais avoir e
+          <anchor id="gpascault_1353139906917" num="2">
+            le plan de
+            <anchor id="gpascault_1353139948187" num="3">Grenoble</anchor>
+          </anchor>
+          avec
+          <anchor id="gpascault_1353139964071" num="4">les trams</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="6.043" endTime="7.431" id="3">
+          <Sync time="6.043" />
+          ah
+          <anchor id="gpascault_1353140004924" num="5">
+            le plan
+            <anchor id="gpascault_1353140031614" num="6">des transports</anchor>
+          </anchor>
+          alors
+        </Turn>
+        <Turn speaker="spk2" startTime="7.431" endTime="10.381" id="4">
+          <Sync time="7.431" />
+          <anchor id="gpascault_1353140101663" num="7">les transports</anchor>
+          oui e
+          <anchor id="gpascault_1353140142215" num="8">Grenoble</anchor>
+          il y a que
+          <anchor id="gpascault_1353140187545" num="9">les trams</anchor>
+          et
+        </Turn>
+        <Turn speaker="spk1" startTime="10.381" endTime="11.057" id="5">
+          <Sync time="10.381" />
+          <anchor id="gpascault_1353140275564" num="10">les bus</anchor>
+          et
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="11.057" endTime="11.369" id="6">
+          <Sync time="11.057" />
+          <Who nb="1" />
+          hum
+          <Who nb="2" />
+          tout c'est
+        </Turn>
+        <Turn speaker="spk1" startTime="11.369" endTime="12.023" id="7">
+          <Sync time="11.369" />
+          <anchor id="gpascault_1353140350758" num="11">la TAG</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="12.023" endTime="13.22" id="8">
+          <Sync time="12.023" />
+          faut que
+          <anchor id="gpascault_1353140550213" num="12">je</anchor>
+          demande à
+        </Turn>
+        <Turn speaker="spk1" startTime="13.22" endTime="13.836" id="9">
+          <Sync time="13.22" />
+          ouais
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1517-55334466" />
+    <unit id="gpascault_1353139896561">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">pourrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353139948187">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">avec</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353139964071">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les trams</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avec</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140031614">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des transports</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">plan</feature>
+          <feature name="NEXT">alors</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140101663">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les transports</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">oui</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140142215">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">il</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140187545">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les trams</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">et</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140275564">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les bus</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">et</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140350758">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la TAG</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140550213">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">demande</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353139906917">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le plan de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">avec</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353140004924">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le plan des transports</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">ah</feature>
+          <feature name="NEXT">alors</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="gpascault_1353140068536">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">16</feature>
+          <feature name="Distance_Word">4</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353140004924" />
+        <term id="gpascault_1353139906917" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353140158527">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">65</feature>
+          <feature name="Distance_Word">13</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353140142215" />
+        <term id="gpascault_1353139948187" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353140225141">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">71</feature>
+          <feature name="Distance_Word">15</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353140187545" />
+        <term id="gpascault_1353139964071" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353140238116">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">5</feature>
+          <feature name="Distance_Word">1</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353140101663" />
+        <term id="gpascault_1353140031614" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353140304480">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">4</feature>
+          <feature name="Distance_Char">58</feature>
+          <feature name="Distance_Word">13</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353140275564" />
+        <term id="gpascault_1353140031614" />
+      </positioning>
+    </relation>
+    <relation id="gpascault_1353140528471">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">NO</feature>
+          <feature name="Distance_Turn">4</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">82</feature>
+          <feature name="Distance_Word">19</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353140350758" />
+        <term id="gpascault_1353140031614" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1353331795190">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="gpascault_1353139964071" />
+        <term id="gpascault_1353140031614" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

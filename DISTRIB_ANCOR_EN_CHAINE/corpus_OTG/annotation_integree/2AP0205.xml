@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="2AP0205" version="4" version_date="040104">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="2ap0205" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="25.404" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.529" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          bonjour
+          <anchor id="adrouin_1330536698817" num="1">madame</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="0.529" endTime="8.279" id="2">
+          <Sync time="0.529" />
+          c'est pour savoir e # e où se trouve
+          <anchor id="adrouin_1330876638734" num="2">la rue</anchor>
+          # e e
+          <anchor id="adrouin_1330536768274" num="3">
+            un rue
+            <anchor id="jmuzerelle_1330961649618" num="4">Génissieu</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="8.279" endTime="12.46" id="3">
+          <Sync time="8.279" />
+          <anchor id="adrouin_1330536794297" num="5">
+            un rue
+            <anchor id="jmuzerelle_1330961663077" num="6">Génissieu</anchor>
+          </anchor>
+          voilà
+          <anchor id="adrouin_1330536822193" num="7">on</anchor>
+          est là et c'est
+          <anchor id="adrouin_1330536869445" num="8">celle-ci</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="12.46" endTime="13.253" id="4">
+          <Sync time="12.46" />
+          d'accord
+        </Turn>
+        <Turn speaker="spk1" startTime="13.253" endTime="13.465" id="5">
+          <Sync time="13.253" />
+          voilà
+        </Turn>
+        <Turn speaker="spk2" startTime="13.465" endTime="15.664" id="6">
+          <Sync time="13.465" />
+          <anchor id="adrouin_1330876798243" num="9">
+            la rue
+            <anchor id="adrouin_1330876816249" num="10">Génissieu Couveret</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="15.664" endTime="16.714" id="7">
+          <Sync time="15.664" />
+          <Who nb="1" />
+          <anchor id="adrouin_1330876840327" num="11">
+            la rue de
+            <anchor id="adrouin_1330876871158" num="12">la base</anchor>
+          </anchor>
+          <Who nb="2" />
+          <anchor id="adrouin_1330537009022" num="13">Génissieu</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="16.714" endTime="19.128" id="8">
+          <Sync time="16.714" />
+          c'est tout ce qu'
+          <anchor id="adrouin_1330876939694" num="14">il</anchor>
+          <anchor id="adrouin_1330537052069" num="15">vous</anchor>
+          faut
+        </Turn>
+        <Turn speaker="spk2" startTime="19.128" endTime="22.263" id="9">
+          <Sync time="19.128" />
+          e avec
+          <anchor id="adrouin_1330876977272" num="16">
+            le plan
+            <anchor id="adrouin_1330537158991" num="17">TAG</anchor>
+          </anchor>
+          si possible pour voir s'il y a
+        </Turn>
+        <Turn speaker="spk1" startTime="22.263" endTime="23.438" id="10">
+          <Sync time="22.263" />
+          alors faudrait
+          <anchor id="adrouin_1330537132814" num="18">le</anchor>
+          prendre en face au
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="23.438" endTime="24.054" id="11">
+          <Sync time="23.438" />
+          <Who nb="1" />
+          d'accord
+          <Who nb="2" />
+          <anchor id="adrouin_1330537178132" num="19">
+            service
+            <anchor id="jmuzerelle_1371030351397" num="20">TAG</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="24.054" endTime="25.404" id="12">
+          <Sync time="24.054" />
+          <Who nb="1" />
+          merci au revoir
+          <Who nb="2" />
+          merci
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="2019-59884011" />
+    <unit id="adrouin_1330536698817">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330536822193">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">voilà</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330536869445">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">celle-ci</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330537009022">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Génissieu</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330537052069">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">il</feature>
+          <feature name="NEXT">faut</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330537132814">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">faudrait</feature>
+          <feature name="NEXT">prendre</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330537158991">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">TAG</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">plan</feature>
+          <feature name="NEXT">si</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876638734">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la rue</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">trouve</feature>
+          <feature name="NEXT">#</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876816249">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Génissieu Couveret</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">rue</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876871158">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la base</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">Génissieu</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876939694">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">qu'</feature>
+          <feature name="NEXT">vous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1330961649618">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Génissieu</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">rue</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1330961663077">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Génissieu</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">rue</feature>
+          <feature name="NEXT">voilà</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330537178132">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">service TAG</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">d'accord</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330536768274">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un rue Génissieu</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330536794297">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un rue Génissieu</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">voilà</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876798243">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la rue Génissieu Couveret</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876840327">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la rue de la base</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">Génissieu</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1330876977272">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le plan TAG</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avec</feature>
+          <feature name="NEXT">si</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1371030351397">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">TAG</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">service</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="adrouin_1331307864550">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">NO</feature>
+          <feature name="Distance_Turn">0</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330876638734" />
+        <term id="adrouin_1330536768274" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1331307873839">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330536794297" />
+        <term id="adrouin_1330536768274" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1331307904096">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">NO</feature>
+          <feature name="Distance_Turn">4</feature>
+          <feature name="Distance_Mention">6</feature>
+          <feature name="Distance_Char">63</feature>
+          <feature name="Distance_Word">12</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330876798243" />
+        <term id="adrouin_1330536768274" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1331307976005">
+      <characterisation>
+        <type>INDIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">5</feature>
+          <feature name="Distance_Mention">10</feature>
+          <feature name="Distance_Char">105</feature>
+          <feature name="Distance_Word">21</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330537009022" />
+        <term id="adrouin_1330536768274" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1331308088090">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">NO</feature>
+          <feature name="Distance_Turn">5</feature>
+          <feature name="Distance_Mention">8</feature>
+          <feature name="Distance_Char">88</feature>
+          <feature name="Distance_Word">16</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330876840327" />
+        <term id="adrouin_1330536768274" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1331308144962">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">44</feature>
+          <feature name="Distance_Word">9</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330537132814" />
+        <term id="adrouin_1330876977272" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1331652348824">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">6</feature>
+          <feature name="Distance_Word">2</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1330961663077" />
+        <term id="jmuzerelle_1330961649618" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1331652359516">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">NO</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">41</feature>
+          <feature name="Distance_Word">9</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330536869445" />
+        <term id="adrouin_1330536768274" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1331652395296">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">4</feature>
+          <feature name="Distance_Mention">6</feature>
+          <feature name="Distance_Char">69</feature>
+          <feature name="Distance_Word">14</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1330876816249" />
+        <term id="jmuzerelle_1330961649618" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1331652652428">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">82</feature>
+          <feature name="Distance_Word">16</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1371030351397" />
+        <term id="adrouin_1330537158991" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

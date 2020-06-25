@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Foulon J" audio_filename="074_0000004b" version="1" version_date="041124">
+    <Speakers>
+      <Speaker id="spk1" name="hotesse" check="no" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" dialect="native" accent="" scope="local" />
+      <Speaker id="spk3" name="hotesse2" check="no" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Episode>
+      <Section type="report" startTime="0" endTime="18.936" id="1">
+        <Turn startTime="0" endTime="1.687" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="adrouin_1340973387773" num="1">U B S</anchor>
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="1.687" endTime="3.656" id="2">
+          <Sync time="1.687" />
+          boujour
+          <anchor id="adrouin_1340973417089" num="2">madame</anchor>
+          <anchor id="adrouin_1340973405845" num="3">madame Nom</anchor>
+          s'il vous plait
+        </Turn>
+        <Turn speaker="spk1" startTime="3.656" endTime="4.351" id="3">
+          <Sync time="3.656" />
+          <anchor id="adrouin_1340973455511" num="4">Prénom Nom</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="4.351" endTime="4.851" id="4">
+          <Sync time="4.351" />
+          oui
+        </Turn>
+        <Turn speaker="spk1" startTime="4.851" endTime="15.648" id="5">
+          <Sync time="4.851" />
+          oui conservez
+          <anchor id="adrouin_1340973467931" num="5">je</anchor>
+          vais
+          <anchor id="adrouin_1340973483766" num="6">vous</anchor>
+          <anchor id="adrouin_1340973490300" num="7">la</anchor>
+          passer #
+        </Turn>
+        <Turn speaker="spk3" startTime="15.648" endTime="16.39" id="6">
+          <Sync time="15.648" />
+          oui allo
+        </Turn>
+        <Turn speaker="spk1" startTime="16.39" endTime="16.868" id="7">
+          <Sync time="16.39" />
+          c'est pour
+          <anchor id="adrouin_1340973500851" num="8">toi</anchor>
+          <anchor id="adrouin_1340973505830" num="9">Prénom</anchor>
+        </Turn>
+        <Turn speaker="spk3" startTime="16.868" endTime="18.936" id="8">
+          <Sync time="16.868" />
+          ouais
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1334-6769323" />
+    <unit id="adrouin_1340973387773">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">U B S</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">bonjour</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973405845">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame Nom</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">madame</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973417089">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">boujour</feature>
+          <feature name="NEXT">madame</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973455511">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Prénom Nom</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973467931">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">conservez</feature>
+          <feature name="NEXT">vais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973483766">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">vais</feature>
+          <feature name="NEXT">la</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973490300">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">vous</feature>
+          <feature name="NEXT">passer</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973500851">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">toi</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">pour</feature>
+          <feature name="NEXT">Prénom</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1340973505830">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Prénom</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">toi</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="adrouin_1342960600921">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">15</feature>
+          <feature name="Distance_Word">3</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1340973455511" />
+        <term id="adrouin_1340973405845" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1342960627019">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">4</feature>
+          <feature name="Distance_Char">54</feature>
+          <feature name="Distance_Word">11</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1340973490300" />
+        <term id="adrouin_1340973405845" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

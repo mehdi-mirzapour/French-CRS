@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ap0279" version="3" version_date="040103">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ap0279" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="6.992" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.701" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.701" endTime="2.636" id="2">
+          <Sync time="0.701" />
+          bonjour
+          <anchor id="klunari_1329064201625" num="1">
+            le plan de
+            <anchor id="klunari_1329064256828" num="2">Grenoble</anchor>
+          </anchor>
+          s'il vous plaît
+        </Turn>
+        <Turn speaker="spk1" startTime="2.636" endTime="3.364" id="3">
+          <Sync time="2.636" />
+          oui
+        </Turn>
+        <Turn speaker="spk2" startTime="3.364" endTime="5.843" id="4">
+          <Sync time="3.364" />
+          <anchor id="klunari_1329256589859" num="3">vous</anchor>
+          <anchor id="klunari_1329064409453" num="4">m'</anchor>
+          <anchor id="jmuzerelle_1329833656596" num="5">en</anchor>
+          donnez deux même
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="5.843" endTime="6.398" id="5">
+          <Sync time="5.843" />
+          <Who nb="1" />
+          voilà
+          <Who nb="2" />
+          merci
+        </Turn>
+        <Turn speaker="spk1" startTime="6.398" endTime="6.992" id="6">
+          <Sync time="6.398" />
+          au revoir
+          <anchor id="klunari_1329064495343" num="6">monsieur</anchor>
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1156-82951704" />
+    <unit id="klunari_1329064256828">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1329064409453">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">m'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">vous</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1329064495343">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">monsieur</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">revoir</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1329256589859">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">m'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1329833656596">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">en</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">m'</feature>
+          <feature name="NEXT">donnez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="klunari_1329064201625">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le plan de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="sduchon_1339851354494">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">4</feature>
+          <feature name="Distance_Char">25</feature>
+          <feature name="Distance_Word">6</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1329833656596" />
+        <term id="klunari_1329064201625" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

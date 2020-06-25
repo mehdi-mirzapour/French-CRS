@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1PF0427" version="5" version_date="040103">
+    <Topics>
+      <Topic id="to1" desc="1pf0427" />
+    </Topics>
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Episode>
+      <Section type="report" startTime="0" endTime="18.954" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.689" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="jmuzerelle_1369754463348" num="1">madame</anchor>
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.689" endTime="5.023" id="2">
+          <Sync time="0.689" />
+          bonjour
+          <anchor id="jmuzerelle_1369754514438" num="2">on</anchor>
+          <anchor id="jmuzerelle_1369754524411" num="3">m'</anchor>
+          a dit qu'
+          <anchor id="jmuzerelle_1369754530059" num="4">il</anchor>
+          avait été édité
+          <anchor id="jmuzerelle_1369754475786" num="5">
+            un guide
+            <anchor id="jmuzerelle_1369754481771" num="6">des pistes cyclables</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="5.023" endTime="5.743" id="3">
+          <Sync time="5.023" />
+          oui
+        </Turn>
+        <Turn speaker="spk2" startTime="5.743" endTime="7.546" id="4">
+          <Sync time="5.743" />
+          si
+          <anchor id="jmuzerelle_1369754542735" num="7">on</anchor>
+          met
+          <anchor id="jmuzerelle_1369754492137" num="8">le trou</anchor>
+          dans
+          <anchor id="jmuzerelle_1369754505711" num="9">les troupes</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="7.546" endTime="8.751" id="5">
+          <Sync time="7.546" />
+          <anchor id="jmuzerelle_1369754557734" num="10">les pistes cyclables</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="8.751" endTime="14.131" id="6">
+          <Sync time="8.751" />
+          oui # merci pourrais
+          <anchor id="jmuzerelle_1369754572750" num="11">je</anchor>
+          <anchor id="jmuzerelle_1369754575957" num="12">en</anchor>
+          avoir
+          <anchor id="jmuzerelle_1369754583678" num="13">d'autres</anchor>
+          non
+          <anchor id="jmuzerelle_1369754589206" num="14">c'</anchor>
+          est pas possible
+        </Turn>
+        <Turn speaker="spk1" startTime="14.131" endTime="14.88" id="7">
+          <Sync time="14.131" />
+          deux e
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="14.88" endTime="15.445" id="8">
+          <Sync time="14.88" />
+          <Who nb="1" />
+          <anchor id="jmuzerelle_1369754603006" num="15">vous</anchor>
+          <anchor id="jmuzerelle_1369754605622" num="16">les</anchor>
+          donnez
+          <Who nb="2" />
+          <anchor id="jmuzerelle_1369754612077" num="17">j'</anchor>
+          <anchor id="jmuzerelle_1369754613565" num="18">en</anchor>
+          ai
+        </Turn>
+        <Turn speaker="spk1" startTime="15.445" endTime="16.946" id="9">
+          <Sync time="15.445" />
+          plus qu'un alors e [pf]
+        </Turn>
+        <Turn speaker="spk2" startTime="16.946" endTime="17.453" id="10">
+          <Sync time="16.946" />
+          bon
+        </Turn>
+        <Turn speaker="spk1" startTime="17.453" endTime="18.954" id="11">
+          <Sync time="17.453" />
+          <anchor id="jmuzerelle_1369754621189" num="19">il</anchor>
+          faudrait que
+          <anchor id="jmuzerelle_1369754628044" num="20">vous</anchor>
+          repassiez
+          <anchor id="jmuzerelle_1369754633235" num="21">madame</anchor>
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1770-95970402" />
+    <unit id="jmuzerelle_1369754463348">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">bonjour</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754475786">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un guide des pistes cyclables</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">édité</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754481771">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des pistes cyclables</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">guide</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754492137">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le trou</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">met</feature>
+          <feature name="NEXT">dans</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754505711">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les troupes</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">dans</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754514438">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">m'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754524411">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">m'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">on</feature>
+          <feature name="NEXT">a</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754530059">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">qu'</feature>
+          <feature name="NEXT">avait</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754542735">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">GENE</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">si</feature>
+          <feature name="NEXT">met</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754557734">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les pistes cyclables</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754572750">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">pourrais</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754575957">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">en</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">je</feature>
+          <feature name="NEXT">avoir</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754583678">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">d'autres</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avoir</feature>
+          <feature name="NEXT">non</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754589206">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">non</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754603006">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">les</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754605622">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">vous</feature>
+          <feature name="NEXT">donnez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754612077">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">j'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">donnez</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754613565">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">en</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">j'</feature>
+          <feature name="NEXT">ai</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754621189">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">faudrait</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754628044">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">repassiez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369754633235">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">madame</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">repassiez</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="jmuzerelle_1369754643395">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">0</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1369754530059" />
+        <term id="jmuzerelle_1369754475786" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1369754651899">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">4</feature>
+          <feature name="Distance_Char">37</feature>
+          <feature name="Distance_Word">9</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1369754557734" />
+        <term id="jmuzerelle_1369754481771" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1369754679930">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">4</feature>
+          <feature name="Distance_Mention">7</feature>
+          <feature name="Distance_Char">80</feature>
+          <feature name="Distance_Word">17</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1369754575957" />
+        <term id="jmuzerelle_1369754475786" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1369754687362">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">4</feature>
+          <feature name="Distance_Mention">8</feature>
+          <feature name="Distance_Char">89</feature>
+          <feature name="Distance_Word">19</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1369754583678" />
+        <term id="jmuzerelle_1369754475786" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1369754694187">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">6</feature>
+          <feature name="Distance_Mention">11</feature>
+          <feature name="Distance_Char">132</feature>
+          <feature name="Distance_Word">28</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1369754605622" />
+        <term id="jmuzerelle_1369754475786" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1369754704706">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">6</feature>
+          <feature name="Distance_Mention">13</feature>
+          <feature name="Distance_Char">146</feature>
+          <feature name="Distance_Word">31</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="jmuzerelle_1369754613565" />
+        <term id="jmuzerelle_1369754475786" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1sb0123" version="2" version_date="011108">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0123" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="13.288" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.886" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="mgodefroy_1330016431022" num="1">monsieur</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="0.886" endTime="3.642" id="2">
+          <Sync time="0.886" />
+          est ce que
+          <anchor id="mgodefroy_1330016457585" num="2">vous</anchor>
+          auriez
+          <anchor id="mgodefroy_1330016570428" num="3">
+            un plan de
+            <anchor id="mgodefroy_1330016524946" num="4">Saint-Pierre-de-Chartreuse</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="3.642" endTime="6.12" id="3">
+          <Sync time="3.642" />
+          <anchor id="mgodefroy_1330016627591" num="5">
+            un # plan de
+            <anchor id="mgodefroy_1330016610290" num="6">Saint-Pierre-de-Chartreuse</anchor>
+          </anchor>
+          non
+        </Turn>
+        <Turn speaker="spk2" startTime="6.12" endTime="7.179" id="4">
+          <Sync time="6.12" />
+          non
+          <anchor id="mgodefroy_1330016655045" num="7">vous</anchor>
+          n'avez pas
+          <anchor id="mgodefroy_1330016705442" num="8">ça</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="7.179" endTime="8.793" id="5">
+          <Sync time="7.179" />
+          <anchor id="mgodefroy_1330016728637" num="9">Saint-Pierre</anchor>
+          <anchor id="mgodefroy_1330016807859" num="10">c'</anchor>
+          est tellement petit
+        </Turn>
+        <Turn speaker="spk2" startTime="8.793" endTime="10.356" id="6">
+          <Sync time="8.793" />
+          ben
+          <anchor id="mgodefroy_1330017732366" num="11">je</anchor>
+          sais bien mais [pi]
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="10.356" endTime="10.99" id="7">
+          <Sync time="10.356" />
+          <Who nb="1" />
+          non
+          <anchor id="mgodefroy_1330017766527" num="12">j'</anchor>
+          ai
+          <Who nb="2" />
+          [pi]
+        </Turn>
+        <Turn speaker="spk1" startTime="10.99" endTime="12.054" id="8">
+          <Sync time="10.99" />
+          pas
+          <anchor id="mgodefroy_1330017794219" num="13">je</anchor>
+          suis désolée
+        </Turn>
+        <Turn speaker="spk2" startTime="12.054" endTime="12.908" id="9">
+          <Sync time="12.054" />
+          merci au revoir
+        </Turn>
+        <Turn speaker="spk1" startTime="12.908" endTime="13.288" id="10">
+          <Sync time="12.908" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1633-71662833" />
+    <unit id="mgodefroy_1330016431022">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">monsieur</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016457585">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">auriez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016524946">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Saint-Pierre-de-Chartreuse</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016610290">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Saint-Pierre-de-Chartreuse</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">non</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016655045">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">non</feature>
+          <feature name="NEXT">n'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016705442">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">ça</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">pas</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016728637">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Saint-Pierre</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">c'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016807859">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">Saint-Pierre</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330017732366">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ben</feature>
+          <feature name="NEXT">sais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330017766527">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">j'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">non</feature>
+          <feature name="NEXT">ai</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330017794219">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">pas</feature>
+          <feature name="NEXT">suis</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016570428">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan de Saint-Pierre-de-Chartreuse</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">auriez</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="mgodefroy_1330016627591">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un # plan de Saint-Pierre-de-Chartreuse</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">non</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="jmuzerelle_1330440665453">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1330016627591" />
+        <term id="mgodefroy_1330016570428" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1330440685139">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">2</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">62</feature>
+          <feature name="Distance_Word">10</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1330016705442" />
+        <term id="mgodefroy_1330016570428" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1330440706173">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">12</feature>
+          <feature name="Distance_Word">4</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1330016610290" />
+        <term id="mgodefroy_1330016524946" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1330440719265">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">65</feature>
+          <feature name="Distance_Word">11</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1330016728637" />
+        <term id="mgodefroy_1330016524946" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1330440730717">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">6</feature>
+          <feature name="Distance_Char">77</feature>
+          <feature name="Distance_Word">12</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="mgodefroy_1330016807859" />
+        <term id="mgodefroy_1330016524946" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="3sb0122" version="3" version_date="031125">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="3sb0122" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="15.884" topic="to1" id="1">
+        <Turn startTime="0" endTime="2.039" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="2.039" endTime="6.248" id="2">
+          <Sync time="2.039" />
+          bonjour est ce que
+          <anchor id="adrouin_1338585337892" num="1">vous</anchor>
+          avez
+          <anchor id="adrouin_1338585346997" num="2">
+            <anchor id="jmuzerelle_1371112826055" num="3">
+              la documentation
+              <anchor id="jmuzerelle_1371112668263" num="4">hiver</anchor>
+            </anchor>
+            déjà de
+            <anchor id="adrouin_1338585359565" num="5">l'Alpe d'Huez</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="6.248" endTime="6.936" id="3">
+          <Sync time="6.248" />
+          oui
+        </Turn>
+        <Turn speaker="spk2" startTime="6.936" endTime="8.713" id="4">
+          <Sync time="6.936" />
+          <anchor id="adrouin_1338585410908" num="6">Megève</anchor>
+          et
+          <anchor id="adrouin_1338585423730" num="7">Valloire</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="8.713" endTime="14.02" id="5">
+          <Sync time="8.713" />
+          <anchor id="adrouin_1338585437732" num="8">Valloire</anchor>
+          <anchor id="adrouin_1338585450877" num="9">on</anchor>
+          <anchor id="adrouin_1338585508640" num="10">l'</anchor>
+          a pas reçu #
+          <anchor id="adrouin_1338585520896" num="11">Megève</anchor>
+          #
+          <anchor id="adrouin_1338585532767" num="12">Alpe d'Huez</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="14.02" endTime="14.708" id="6">
+          <Sync time="14.02" />
+          merci beaucoup
+        </Turn>
+        <Turn speaker="spk1" startTime="14.708" endTime="15.884" id="7">
+          <Sync time="14.708" />
+          <anchor id="adrouin_1338585548780" num="13">je</anchor>
+          <anchor id="adrouin_1338585553543" num="14">vous</anchor>
+          en prie
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1286-63733626" />
+    <unit id="adrouin_1338585337892">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">que</feature>
+          <feature name="NEXT">avez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585410908">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Megève</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">et</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585423730">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Valloire</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">et</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585437732">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Valloire</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">on</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585450877">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">on</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">Valloire</feature>
+          <feature name="NEXT">l'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585508640">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">l'</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">on</feature>
+          <feature name="NEXT">a</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585520896">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Megève</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">#</feature>
+          <feature name="NEXT">Alpe</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585532767">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Alpe d'Huez</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">#</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585548780">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">vous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585553543">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">je</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585359565">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">l'Alpe d'Huez</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338585346997">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la documentation hiver déjà de l'Alpe d'Huez</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avez</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1371112668263">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">TIME</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">hiver</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">documentation</feature>
+          <feature name="NEXT">déjà</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1371112826055">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la documentation hiver</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avez</feature>
+          <feature name="NEXT">déjà</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="adrouin_1339001129713">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1338585437732" />
+        <term id="adrouin_1338585423730" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1339001147540">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">38</feature>
+          <feature name="Distance_Word">9</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1338585520896" />
+        <term id="adrouin_1338585410908" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1339001156397">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">7</feature>
+          <feature name="Distance_Char">57</feature>
+          <feature name="Distance_Word">13</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1338585532767" />
+        <term id="adrouin_1338585359565" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1339073684002">
+      <characterisation>
+        <type>ASSOC_PRONOM</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">7</feature>
+          <feature name="Distance_Char">53</feature>
+          <feature name="Distance_Word">10</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1338585508640" />
+        <term id="jmuzerelle_1371112826055" />
+      </positioning>
+    </relation>
+    <schema id="jmuzerelle_1371112832459">
+      <metadata>
+        <author>jmuzerelle</author>
+        <creation-date>1371112832459</creation-date>
+        <lastModifier>jmuzerelle</lastModifier>
+        <lastModificationDate>1371112835503</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="adrouin_1338585410908" />
+        <embedded-unit id="jmuzerelle_1371112826055" />
+      </positioning>
+    </schema>
+    <schema id="jmuzerelle_1371112838379">
+      <metadata>
+        <author>jmuzerelle</author>
+        <creation-date>1371112838379</creation-date>
+        <lastModifier>jmuzerelle</lastModifier>
+        <lastModificationDate>1371112841583</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="adrouin_1338585423730" />
+        <embedded-unit id="jmuzerelle_1371112826055" />
+      </positioning>
+    </schema>
+  </annotations>
+</ANCOR>

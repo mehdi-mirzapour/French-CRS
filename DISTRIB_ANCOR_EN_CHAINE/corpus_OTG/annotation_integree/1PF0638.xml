@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1pf0638" version="3" version_date="040103">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1pf0638" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="21.300" topic="to1" id="1">
+        <Turn startTime="0" endTime="2.768" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+          <anchor id="agoudjo_1330358065905" num="1">je</anchor>
+          cherche
+          <anchor id="agoudjo_1330358081907" num="2">
+            le cours
+            <anchor id="agoudjo_1330358139529" num="3">Jean Jaurès</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="2.768" endTime="5.599" id="2">
+          <Sync time="2.768" />
+          <anchor id="agoudjo_1330358151802" num="4">
+            le cours
+            <anchor id="agoudjo_1330358165447" num="5">Jean Jaurès</anchor>
+          </anchor>
+          et ben dis donc
+          <anchor id="agoudjo_1330358181500" num="6">vous</anchor>
+          pouvez pas
+          <anchor id="agoudjo_1330358197267" num="7">le</anchor>
+          perdre
+          <anchor id="agoudjo_1330358227151" num="8">celui là</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="5.599" endTime="6.244" id="3">
+          <Sync time="5.599" />
+          ouais
+        </Turn>
+        <Turn speaker="spk2" startTime="6.244" endTime="12.408" id="4">
+          <Sync time="6.244" />
+          <anchor id="agoudjo_1330358242246" num="9">il</anchor>
+          fait
+          <anchor id="agoudjo_1330358250509" num="10">huit kilomètres</anchor>
+          # alors
+          <anchor id="agoudjo_1330358287882" num="11">vous</anchor>
+          êtes là
+        </Turn>
+        <Turn speaker="spk1" startTime="12.408" endTime="13.559" id="5">
+          <Sync time="12.408" />
+          d'accord
+        </Turn>
+        <Turn speaker="spk2" startTime="13.559" endTime="17.656" id="6">
+          <Sync time="13.559" />
+          <anchor id="agoudjo_1330358312485" num="12">tout</anchor>
+          dépend si c'est sur e p(our) sur
+          <anchor id="agoudjo_1330358347680" num="13">Echirolles</anchor>
+          ou sur
+          <anchor id="agoudjo_1330358371265" num="14">Grenoble</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="17.656" endTime="18.412" id="7">
+          <Sync time="17.656" />
+          non c'est
+          <anchor id="agoudjo_1330358388830" num="15">Grenoble</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="18.412" endTime="21.077" id="8">
+          <Sync time="18.412" />
+          bon ben
+          <anchor id="jmuzerelle_1369672497745" num="16">c'</anchor>
+          est bon alors c'est c'est
+          <anchor id="agoudjo_1330358402921" num="17">
+            la partie
+            <anchor id="agoudjo_1330358466625" num="18">
+              du haut
+              <anchor id="agoudjo_1330358492615" num="19">
+                du cours
+                <anchor id="agoudjo_1330358521369" num="20">Jean Jaurès</anchor>
+              </anchor>
+            </anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="21.077" endTime="21.300" id="9">
+          <Sync time="21.077" />
+          d'acc(ord)
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1607-89351064" />
+    <unit id="agoudjo_1330358065905">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">cherche</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358139529">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Jean Jaurès</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">cours</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358165447">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Jean Jaurès</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">cours</feature>
+          <feature name="NEXT">et</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358181500">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">donc</feature>
+          <feature name="NEXT">pouvez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358197267">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">pas</feature>
+          <feature name="NEXT">perdre</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358227151">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_DEM</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">celui là</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">perdre</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358242246">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">fait</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358250509">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">AMOUNT</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">huit kilomètres</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">fait</feature>
+          <feature name="NEXT">#</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358287882">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">alors</feature>
+          <feature name="NEXT">êtes</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358312485">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">tout</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">dépend</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358347680">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Echirolles</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">sur</feature>
+          <feature name="NEXT">ou</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358371265">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">sur</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358388830">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358521369">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">Jean Jaurès</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">cours</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358081907">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le cours Jean Jaurès</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">cherche</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358151802">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le cours Jean Jaurès</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">et</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358492615">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">NO</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">du cours Jean Jaurès</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">haut</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358466625">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">du haut du cours Jean Jaurès</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">partie</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="agoudjo_1330358402921">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la partie du haut du cours Jean Jaurès</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1369672497745">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">c'</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">ben</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="agoudjo_1331392133044">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358151802" />
+        <term id="agoudjo_1330358081907" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392143591">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">2</feature>
+          <feature name="Distance_Char">8</feature>
+          <feature name="Distance_Word">2</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358165447" />
+        <term id="agoudjo_1330358139529" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392156960">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">5</feature>
+          <feature name="Distance_Char">52</feature>
+          <feature name="Distance_Word">11</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358197267" />
+        <term id="agoudjo_1330358081907" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392168020">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">6</feature>
+          <feature name="Distance_Char">62</feature>
+          <feature name="Distance_Word">13</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358227151" />
+        <term id="agoudjo_1330358081907" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392187286">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">3</feature>
+          <feature name="Distance_Mention">7</feature>
+          <feature name="Distance_Char">76</feature>
+          <feature name="Distance_Word">16</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358242246" />
+        <term id="agoudjo_1330358081907" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392220889">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">9</feature>
+          <feature name="Distance_Word">2</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358388830" />
+        <term id="agoudjo_1330358371265" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392249499">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">7</feature>
+          <feature name="Distance_Mention">17</feature>
+          <feature name="Distance_Char">264</feature>
+          <feature name="Distance_Word">53</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358492615" />
+        <term id="agoudjo_1330358081907" />
+      </positioning>
+    </relation>
+    <relation id="agoudjo_1331392280465">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">7</feature>
+          <feature name="Distance_Mention">17</feature>
+          <feature name="Distance_Char">273</feature>
+          <feature name="Distance_Word">55</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="agoudjo_1330358521369" />
+        <term id="agoudjo_1330358139529" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

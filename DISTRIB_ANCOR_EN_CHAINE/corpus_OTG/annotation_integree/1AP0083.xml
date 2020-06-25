@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ap0083" version="5" version_date="031203">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ap0083" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="6.020" topic="to1" id="1">
+        <Turn startTime="0" endTime="2.142" speaker="spk2" id="1">
+          <Sync time="0" />
+          pour
+          <anchor id="yrives_1330437638703" num="1">les billets</anchor>
+          c'est là ou
+        </Turn>
+        <Turn speaker="spk1" startTime="2.142" endTime="2.889" id="2">
+          <Sync time="2.142" />
+          <anchor id="yrives_1330437670718" num="2">billet</anchor>
+          pour
+        </Turn>
+        <Turn speaker="spk2" startTime="2.889" endTime="3.831" id="3">
+          <Sync time="2.889" />
+          e
+          <anchor id="yrives_1330437716046" num="3">concert</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="3.831" endTime="4.633" id="4">
+          <Sync time="3.831" />
+          c'est
+          <anchor id="yrives_1330437779265" num="4">quel concert</anchor>
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="4.633" endTime="4.876" id="5">
+          <Sync time="4.633" />
+          <Who nb="1" />
+          <anchor id="yrives_1330437826859" num="5">les</anchor>
+          <Who nb="2" />
+          parce que
+        </Turn>
+        <Turn speaker="spk2" startTime="4.876" endTime="5.503" id="6">
+          <Sync time="4.876" />
+          <anchor id="yrives_1330437801000" num="6">Metallica</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="5.503" endTime="6.020" id="7">
+          <Sync time="5.503" />
+          à côté
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1225-95110488" />
+    <unit id="yrives_1330437638703">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">les billets</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">pour</feature>
+          <feature name="NEXT">c'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330437670718">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">billet</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">pour</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330437716046">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">concert</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">e</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330437779265">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">quel concert</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">est</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330437801000">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">ORG</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">Metallica</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="yrives_1330437826859">
+      <characterisation>
+        <type>NULL</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NULL</feature>
+          <feature name="EN">NULL</feature>
+          <feature name="DEF">NULL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">NULL</feature>
+          <feature name="NB">NULL</feature>
+          <feature name="CONTENT">les</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">parce</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="adrouin_1340357895448">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">11</feature>
+          <feature name="Distance_Word">3</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="yrives_1330437670718" />
+        <term id="yrives_1330437638703" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1340357927375">
+      <characterisation>
+        <type>DIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">NO</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">5</feature>
+          <feature name="Distance_Word">1</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="yrives_1330437779265" />
+        <term id="yrives_1330437716046" />
+      </positioning>
+    </relation>
+    <relation id="jmuzerelle_1340627376404">
+      <characterisation>
+        <type>ASSOC</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">NO</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">0</feature>
+          <feature name="Distance_Mention">0</feature>
+          <feature name="Distance_Char">0</feature>
+          <feature name="Distance_Word">0</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="yrives_1330437831531" />
+        <term id="yrives_1330437716046" />
+      </positioning>
+    </relation>
+    <schema id="yrives_1330437831531">
+      <metadata>
+        <author>yrives</author>
+        <creation-date>1330437831531</creation-date>
+        <lastModifier>n/a</lastModifier>
+        <lastModificationDate>0</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="yrives_1330437826859" />
+        <embedded-unit id="yrives_1330437801000" />
+      </positioning>
+    </schema>
+  </annotations>
+</ANCOR>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ag0531" version="2" version_date="031118">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ag0531" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="3.4045" topic="to1" id="1">
+        <Turn startTime="0" endTime="2.043" speaker="spk1" id="1">
+          <Sync time="0" />
+          bonjour
+          <anchor id="sduchon_1329672522137" num="1">
+            un plan
+            <anchor id="sduchon_1329672531591" num="2">du tram</anchor>
+          </anchor>
+          <anchor id="sduchon_1329672564380" num="3">il</anchor>
+          faut
+          <anchor id="sduchon_1329672581506" num="4">le</anchor>
+          demander là bas
+        </Turn>
+        <Turn speaker="spk2" startTime="2.043" endTime="2.564" id="2">
+          <Sync time="2.043" />
+          là bas
+        </Turn>
+        <Turn speaker="spk1" startTime="2.564" endTime="3.004" id="3">
+          <Sync time="2.564" />
+          merci
+        </Turn>
+        <Turn speaker="spk2" startTime="3.004" endTime="3.4045" id="4">
+          <Sync time="3.004" />
+          de rien
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="925-98320167" />
+    <unit id="sduchon_1329672531591">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">du tram</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">plan</feature>
+          <feature name="NEXT">il</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329672564380">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">EXPL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">plan</feature>
+          <feature name="NEXT">faut</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329672581506">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">faut</feature>
+          <feature name="NEXT">demander</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329672522137">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un plan du tram</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">il</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="sduchon_1330437340638">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">0</feature>
+          <feature name="Distance_Mention">3</feature>
+          <feature name="Distance_Char">7</feature>
+          <feature name="Distance_Word">2</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="sduchon_1329672581506" />
+        <term id="sduchon_1329672522137" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

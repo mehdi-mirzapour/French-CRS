@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="2sb0212" version="3" version_date="040104">
+    <Speakers>
+      <Speaker id="spk1" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="2sb0212" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="19.053" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.637" speaker="spk1 spk2" id="1">
+          <Sync time="0" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          bonjour
+        </Turn>
+        <Turn speaker="spk2" startTime="0.637" endTime="2.622" id="2">
+          <Sync time="0.637" />
+          avez
+          <anchor id="adrouin_1338463003919" num="1">vous</anchor>
+          <anchor id="adrouin_1338463085429" num="2">
+            le plan de
+            <anchor id="adrouin_1338463105802" num="3">Grenoble</anchor>
+          </anchor>
+          s'il vous plaît
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="2.622" endTime="2.948" id="3">
+          <Sync time="2.622" />
+          <Who nb="1" />
+          oui
+          <Who nb="2" />
+          de
+          <anchor id="adrouin_1338463438815" num="4">la ville</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="2.948" endTime="6.359" id="4">
+          <Sync time="2.948" />
+          et e qu'est ce qu'il y a à visiter enfin
+        </Turn>
+        <Turn speaker="spk1" startTime="6.359" endTime="11.336" id="5">
+          <Sync time="6.359" />
+          <anchor id="adrouin_1338463190526" num="5">vous</anchor>
+          avez énormément
+          <anchor id="adrouin_1338463201056" num="6">de musées</anchor>
+          à visiter #
+          <anchor id="adrouin_1338463217592" num="7">je</anchor>
+          vais
+          <anchor id="adrouin_1338463237185" num="8">vous</anchor>
+          laisser
+          <anchor id="adrouin_1338463245188" num="9">le listing</anchor>
+          hein
+          <anchor id="adrouin_1338463321847" num="10">il</anchor>
+          est là
+        </Turn>
+        <Turn speaker="spk2" startTime="11.336" endTime="12.085" id="6">
+          <Sync time="11.336" />
+          hum hum
+        </Turn>
+        <Turn speaker="spk1" startTime="12.085" endTime="15.163" id="7">
+          <Sync time="12.085" />
+          <anchor id="adrouin_1338463334108" num="11">vous</anchor>
+          avez
+          <anchor id="adrouin_1338463343421" num="12">le téléphérique</anchor>
+          aussi avec
+          <anchor id="adrouin_1338463366525" num="13">des randonnées pédestres</anchor>
+          en
+          <anchor id="adrouin_1338463394605" num="14">haut</anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="15.163" endTime="18.348" id="8">
+          <Sync time="15.163" />
+          d'accord # merci
+        </Turn>
+        <Turn speaker="spk1" startTime="18.348" endTime="18.768" id="9">
+          <Sync time="18.348" />
+          <anchor id="adrouin_1338463413138" num="15">je</anchor>
+          <anchor id="adrouin_1338463420376" num="16">vous</anchor>
+          en prie
+        </Turn>
+        <Turn speaker="spk1 spk2" startTime="18.768" endTime="19.053" id="10">
+          <Sync time="18.768" />
+          <Who nb="1" />
+          au revoir
+          <Who nb="2" />
+          au revoir
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1794-64793520" />
+    <unit id="adrouin_1338463003919">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">avez</feature>
+          <feature name="NEXT">le</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463105802">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463190526">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">avez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463201056">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">de musées</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">énormément</feature>
+          <feature name="NEXT">à</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463217592">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">#</feature>
+          <feature name="NEXT">vais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463237185">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">vais</feature>
+          <feature name="NEXT">laisser</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463245188">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le listing</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">laisser</feature>
+          <feature name="NEXT">hein</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463321847">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">il</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">hein</feature>
+          <feature name="NEXT">est</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463334108">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">avez</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463343421">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le téléphérique</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">avez</feature>
+          <feature name="NEXT">aussi</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463394605">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">haut</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">en</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463413138">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">vous</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463420376">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">vous</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">je</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463438815">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">la ville</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463085429">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">le plan de Grenoble</feature>
+          <feature name="SPEAKER">spk2</feature>
+          <feature name="PREVIOUS">vous</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="adrouin_1338463366525">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">des randonnées pédestres</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">avec</feature>
+          <feature name="NEXT">en</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <relation id="adrouin_1338996157784">
+      <characterisation>
+        <type>INDIRECTE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">UNK</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="Distance_Turn">1</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">21</feature>
+          <feature name="Distance_Word">5</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1338463438815" />
+        <term id="adrouin_1338463105802" />
+      </positioning>
+    </relation>
+    <relation id="adrouin_1338996185665">
+      <characterisation>
+        <type>ANAPHORE</type>
+        <featureSet>
+          <feature name="ID_LOC">YES</feature>
+          <feature name="NOMBRE">YES</feature>
+          <feature name="GENRE">YES</feature>
+          <feature name="Distance_Turn">0</feature>
+          <feature name="Distance_Mention">1</feature>
+          <feature name="Distance_Char">4</feature>
+          <feature name="Distance_Word">1</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <term id="adrouin_1338463321847" />
+        <term id="adrouin_1338463245188" />
+      </positioning>
+    </relation>
+  </annotations>
+</ANCOR>

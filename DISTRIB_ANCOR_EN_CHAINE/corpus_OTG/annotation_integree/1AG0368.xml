@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1ag0368" version="2" version_date="031118">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="female" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1ag0368" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="3.898" topic="to1" id="1">
+        <Turn startTime="0" endTime="0.373" speaker="spk1" id="1">
+          <Sync time="0" />
+          <anchor id="sduchon_1329169551262" num="1">je</anchor>
+          voudrais
+          <anchor id="sduchon_1329169609763" num="2">des</anchor>
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="0.373" endTime="0.675" id="2">
+          <Sync time="0.373" />
+          <Who nb="1" />
+          bonjour
+          <Who nb="2" />
+          <anchor id="sduchon_1329169615795" num="3">listes</anchor>
+        </Turn>
+        <Turn speaker="spk1" startTime="0.675" endTime="2.151" id="3">
+          <Sync time="0.675" />
+          <anchor id="jmuzerelle_1371115011129" num="4">
+            d'
+            <anchor id="sduchon_1329169653656" num="5">hôtels</anchor>
+          </anchor>
+          s'il vous plaît
+          <anchor id="sduchon_1329169673215" num="6">
+            de
+            <anchor id="jmuzerelle_1371115046413" num="7">Grenoble</anchor>
+          </anchor>
+        </Turn>
+        <Turn speaker="spk2" startTime="2.151" endTime="2.964" id="4">
+          <Sync time="2.151" />
+          voilà
+        </Turn>
+        <Turn speaker="spk1" startTime="2.964" endTime="3.898" id="5">
+          <Sync time="2.964" />
+          merci
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="1043-209979" />
+    <unit id="sduchon_1329169551262">
+      <characterisation>
+        <type>PR</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">NO</feature>
+          <feature name="EN">PERS</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">je</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">voudrais</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169609763">
+      <characterisation>
+        <type>NULL</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NULL</feature>
+          <feature name="EN">NULL</feature>
+          <feature name="DEF">NULL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">NULL</feature>
+          <feature name="NB">NULL</feature>
+          <feature name="CONTENT">des</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">voudrais</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169653656">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">hôtels</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">d'</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169673215">
+      <characterisation>
+        <type>NULL</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NULL</feature>
+          <feature name="EN">NULL</feature>
+          <feature name="DEF">NULL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">NULL</feature>
+          <feature name="NB">NULL</feature>
+          <feature name="CONTENT">de Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">plaît</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="sduchon_1329169615795">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">F</feature>
+          <feature name="NB">PL</feature>
+          <feature name="CONTENT">listes</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">bonjour</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1371115011129">
+      <characterisation>
+        <type>NULL</type>
+        <featureSet>
+          <feature name="GEN_REF">NULL</feature>
+          <feature name="NEW">NULL</feature>
+          <feature name="EN">NULL</feature>
+          <feature name="DEF">NULL</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">NULL</feature>
+          <feature name="NB">NULL</feature>
+          <feature name="CONTENT">d'hôtels</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">^</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="jmuzerelle_1371115046413">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="NEW">YES</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">$</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <schema id="jmuzerelle_1371115023661">
+      <metadata>
+        <author>jmuzerelle</author>
+        <creation-date>1371115023661</creation-date>
+        <lastModifier>jmuzerelle</lastModifier>
+        <lastModificationDate>1371115036543</lastModificationDate>
+      </metadata>
+      <characterisation>
+        <type>default</type>
+        <featureSet>
+          <feature name="default">default</feature>
+        </featureSet>
+      </characterisation>
+      <positioning>
+        <embedded-unit id="sduchon_1329169609763" />
+        <embedded-unit id="sduchon_1329169615795" />
+        <embedded-unit id="jmuzerelle_1371115011129" />
+        <embedded-unit id="sduchon_1329169673215" />
+      </positioning>
+    </schema>
+  </annotations>
+</ANCOR>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANCOR>
+  <Trans scribe="Nicolas" audio_filename="1sb0405" version="2" version_date="011114">
+    <Speakers>
+      <Speaker id="spk1" name="client" check="no" type="male" dialect="native" accent="" scope="local" />
+      <Speaker id="spk2" name="hôtesse" check="no" type="female" dialect="native" accent="" scope="local" />
+    </Speakers>
+    <Topics>
+      <Topic id="to1" desc="1sb0405" />
+    </Topics>
+    <Episode>
+      <Section type="report" startTime="0" endTime="3.563" topic="to1" id="1">
+        <Turn startTime="0" endTime="1.871" speaker="spk1" id="1">
+          <Sync time="0" />
+          [pi]
+          <anchor id="gpascault_1353070532573" num="1">
+            un petit plan de
+            <anchor id="gpascault_1353070554888" num="2">Grenoble</anchor>
+          </anchor>
+          s'il vous
+        </Turn>
+        <Turn speaker="spk2 spk1" startTime="1.871" endTime="2.642" id="2">
+          <Sync time="1.871" />
+          <Who nb="1" />
+          oui
+          <Who nb="2" />
+          plaît
+        </Turn>
+        <Turn speaker="spk1" startTime="2.642" endTime="3.08" id="3">
+          <Sync time="2.642" />
+          merci
+        </Turn>
+        <Turn speaker="spk2" startTime="3.08" endTime="3.563" id="4">
+          <Sync time="3.08" />
+          merci
+        </Turn>
+      </Section>
+    </Episode>
+  </Trans>
+  <annotations>
+    <metadata corpusHashcode="938-3519648" />
+    <unit id="gpascault_1353070554888">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">LOC</feature>
+          <feature name="DEF">DEF_SPLE</feature>
+          <feature name="GP">YES</feature>
+          <feature name="GENRE">UNK</feature>
+          <feature name="NB">UNK</feature>
+          <feature name="CONTENT">Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">de</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+    <unit id="gpascault_1353070532573">
+      <characterisation>
+        <type>N</type>
+        <featureSet>
+          <feature name="NEW">YES</feature>
+          <feature name="GEN_REF">SPEC</feature>
+          <feature name="EN">NO</feature>
+          <feature name="DEF">INDEF</feature>
+          <feature name="GP">NO</feature>
+          <feature name="GENRE">M</feature>
+          <feature name="NB">SG</feature>
+          <feature name="CONTENT">un petit plan de Grenoble</feature>
+          <feature name="SPEAKER">spk1</feature>
+          <feature name="PREVIOUS">[pi]</feature>
+          <feature name="NEXT">s'</feature>
+        </featureSet>
+      </characterisation>
+    </unit>
+  </annotations>
+</ANCOR>
