@@ -120,6 +120,9 @@ Usage: crs-resolver.py [OPTIONS]
                                     column_outcome="Prediction",
                                     threshold=0.5)
 
+    chains_generator.columns_drop_list = ["Left_ID", "Right_ID"]
+
+
     chains_generator.apply_model_to_dataset()
 
 
@@ -130,11 +133,13 @@ Usage: crs-resolver.py [OPTIONS]
                             config_file["text_features_xls_path"],
                             "Prediction",
                             "Prediction",
-                            0.5)
+                            config_file["scorch_json_output_path"],
+                            0.4)
+
 
     print("Coreference Chains Saving...")
-    chains.generate_gold_model_json_output(
-        mode="test", path_json_files=config_file["scorch_json_output_path"])
+
+    chains.generate_gold_model_json_output(mode="test")
 
 
     # Coreference Chains Visualizing
