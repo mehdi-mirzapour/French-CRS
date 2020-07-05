@@ -91,4 +91,4 @@ Notice: Downloading ANCOR corpus is not mandatory for running the CRS system. Pr
 ```
 
 ### License
-French-CRS is MIT-licensed, as found in the LICENSE file.
+French-CRS is BSD-licensed, as found in the LICENSE file.
