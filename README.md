@@ -8,7 +8,7 @@ French-CRS is a machine-learning based NLP framework for coreference resolution 
 
 2. Virtualenv (a useful resource for non-familiar ones is `https://python.doctor/page-virtualenv-python-environnement-virtuel`
 
-3. Optional: CAREN (`https://github.com/Evpok/neural-end-to-end-coref`) or DECOFRE (`https://github.com/LoicGrobol/decofre/`) for French mention detection (notice that the author permission is required for CAREN) 
+3. Optional: DECOFRE (`https://github.com/LoicGrobol/decofre/`) for French mention detection.
 
 
 ## Quick Installation Instruction
@@ -27,17 +27,7 @@ For a quick start:
     ```bash
     python -m spacy download fr_core_news_md
     ```  
-7. Install an additional dependency called CAREN (Coréférence par Application de RÉseaux de Neurones) for French mention detection with the following setup (notice that the author permission is required):  
-
-    ```bash
-    git clone https://github.com/Evpok/neural-end-to-end-coref
-    python3.7 -m venv .virtenv
-    source .virtenv/bin/activate
-    cd neural-end-to-end-coref
-    git reset --hard 7ceb245fbf8cbf126c18ce29fb9e4746ca0036db
-    python -m pip install -e .
-    python -m spacy download fr_core_news_sm
-    ``` 
+7. Install an additional dependency https://github.com/LoicGrobol/decofre/ 
 8. To deactivate the enviroment run `deactivate` in the commonad prompt or simply close the terminal
 
 
